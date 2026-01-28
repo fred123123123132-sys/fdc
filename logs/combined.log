@@ -1,0 +1,778 @@
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-23 22:37:29"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-23 22:37:29"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-23 22:37:29"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-23 22:37:30"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-23 22:37:30"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-23 22:37:49"}
+{"ip":"::1","level":"info","message":"GET /health","service":"panopticon-chat","timestamp":"2026-01-23 22:37:58","userAgent":"curl/8.13.0"}
+{"ip":"::1","level":"info","message":"POST /api/auth/login","service":"panopticon-chat","timestamp":"2026-01-23 22:38:36","userAgent":"curl/8.13.0"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-23 22:38:36"}
+{"ip":"::1","level":"info","message":"POST /api/auth/register","service":"panopticon-chat","timestamp":"2026-01-23 22:39:04","userAgent":"curl/8.13.0"}
+{"level":"error","message":"Registration error: jwt.generateToken is not a function","service":"panopticon-chat","stack":"TypeError: jwt.generateToken is not a function\n    at C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\routes\\auth.routes.js:54:23\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","timestamp":"2026-01-23 22:39:04"}
+{"ip":"::1","level":"info","message":"GET /api/admin/logs","service":"panopticon-chat","timestamp":"2026-01-23 22:39:29","userAgent":"curl/8.13.0"}
+{"ip":"::1","level":"info","message":"GET /","service":"panopticon-chat","timestamp":"2026-01-23 22:41:22","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-23 22:42:19"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-23 22:42:19"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-23 22:42:19"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-23 22:42:19"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-23 22:42:19"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-23 22:42:25"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-23 22:42:25"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-23 22:42:25"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-23 22:42:25"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-23 22:42:25"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-23 22:43:01"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-23 22:43:01"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-23 22:43:01"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-23 22:43:01"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-23 22:43:01"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-23 22:48:07"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-23 22:48:07"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-23 22:48:07"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-23 22:48:07"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-23 22:48:07"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-23 22:49:40"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-23 22:49:40"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-23 22:49:40"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-23 22:49:40"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-23 22:49:40"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-23 22:50:00"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-23 22:50:00"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-23 22:50:00"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-23 22:50:00"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-23 22:50:00"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-23 22:53:09"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-23 22:53:09"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-23 22:53:09"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-23 22:53:09"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-23 22:53:09"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-23 22:54:47"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-23 22:54:47"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-23 22:54:47"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-23 22:54:47"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-23 22:54:47"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-23 22:54:50"}
+{"ip":"::1","level":"info","message":"POST /api/auth/login","service":"panopticon-chat","timestamp":"2026-01-23 22:56:11","userAgent":"curl/8.13.0"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-23 22:56:11"}
+{"level":"error","message":"Login error: jwt.generateToken is not a function","service":"panopticon-chat","stack":"TypeError: jwt.generateToken is not a function\n    at C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\routes\\auth.routes.js:149:23\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","timestamp":"2026-01-23 22:56:11"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-24 22:35:56"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-24 22:35:56"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-24 22:35:56"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-24 22:35:56"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-24 22:35:56"}
+{"ip":"::1","level":"info","message":"POST /api/auth/login","service":"panopticon-chat","timestamp":"2026-01-24 22:36:42","userAgent":"curl/8.13.0"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-24 22:36:42"}
+{"level":"error","message":"Login error: jwt.generateToken is not a function","service":"panopticon-chat","stack":"TypeError: jwt.generateToken is not a function\n    at C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\routes\\auth.routes.js:149:23\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","timestamp":"2026-01-24 22:36:43"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-24 22:37:19"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-24 22:37:19"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-24 22:37:19"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-24 22:37:19"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-24 22:37:19"}
+{"level":"error","message":"Socket authentication error: jwt.verifyToken is not a function","service":"panopticon-chat","stack":"TypeError: jwt.verifyToken is not a function\n    at Array.<anonymous> (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\server.js:77:25)\n    at run (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\node_modules\\socket.io\\dist\\namespace.js:133:19)\n    at Namespace.run (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\node_modules\\socket.io\\dist\\namespace.js:144:9)\n    at Namespace._add (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\node_modules\\socket.io\\dist\\namespace.js:221:14)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","timestamp":"2026-01-24 22:37:40"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-24 22:39:29"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-24 22:39:29"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-24 22:39:29"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-24 22:39:29"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-24 22:39:29"}
+{"level":"error","message":"Socket authentication error: jwt.verifyToken is not a function","service":"panopticon-chat","stack":"TypeError: jwt.verifyToken is not a function\n    at Array.<anonymous> (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\server.js:77:25)\n    at run (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\node_modules\\socket.io\\dist\\namespace.js:133:19)\n    at Namespace.run (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\node_modules\\socket.io\\dist\\namespace.js:144:9)\n    at Namespace._add (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\node_modules\\socket.io\\dist\\namespace.js:221:14)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","timestamp":"2026-01-24 22:39:37"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-24 23:26:25"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-24 23:26:25"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-24 23:26:25"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-24 23:26:25"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-24 23:26:25"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-24 23:27:13"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-24 23:27:13"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-24 23:27:13"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-24 23:27:13"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-24 23:27:13"}
+{"ip":"::1","level":"info","message":"POST /api/auth/login","service":"panopticon-chat","timestamp":"2026-01-24 23:27:22","userAgent":"curl/8.13.0"}
+{"level":"error","message":"Login error: jwt.generateToken is not a function","service":"panopticon-chat","stack":"TypeError: jwt.generateToken is not a function\n    at C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\routes\\auth.routes.js:149:23\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","timestamp":"2026-01-24 23:27:22"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-24 23:29:26"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-24 23:29:26"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-24 23:29:26"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-24 23:29:26"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-24 23:29:26"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-24 23:29:48"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-24 23:29:48"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-24 23:29:48"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-24 23:29:48"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-24 23:29:48"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-24 23:30:08"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-24 23:30:08"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-24 23:30:08"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-24 23:30:08"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-24 23:30:08"}
+{"ip":"::1","level":"info","message":"POST /api/auth/login","service":"panopticon-chat","timestamp":"2026-01-24 23:30:13","userAgent":"curl/8.13.0"}
+{"level":"error","message":"Login error: generateToken is not a function","service":"panopticon-chat","stack":"TypeError: generateToken is not a function\n    at C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\routes\\auth.routes.js:149:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","timestamp":"2026-01-24 23:30:13"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-24 23:38:00"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-24 23:38:00"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-24 23:38:00"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-24 23:38:00"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-24 23:38:00"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-24 23:38:09"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-24 23:38:09"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-24 23:38:09"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-24 23:38:09"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-24 23:38:09"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-24 23:40:30"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-24 23:40:30"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-24 23:40:30"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-24 23:40:30"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-24 23:40:30"}
+{"ip":"::1","level":"info","message":"POST /api/auth/login","service":"panopticon-chat","timestamp":"2026-01-24 23:40:43","userAgent":"curl/8.13.0"}
+{"level":"info","message":"User logged in: superadmin (superadmin)","service":"panopticon-chat","timestamp":"2026-01-24 23:40:43"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-24 23:41:29"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-24 23:41:29"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-24 23:41:29"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-24 23:41:29"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-24 23:41:29"}
+{"ip":"::1","level":"info","message":"POST /api/auth/login","service":"panopticon-chat","timestamp":"2026-01-24 23:41:49","userAgent":"curl/8.13.0"}
+{"level":"info","message":"User logged in: superadmin (superadmin)","service":"panopticon-chat","timestamp":"2026-01-24 23:41:49"}
+{"ip":"::1","level":"info","message":"GET /api/admin/users","service":"panopticon-chat","timestamp":"2026-01-24 23:43:41","userAgent":"curl/8.13.0"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-24 23:43:41"}
+{"level":"info","message":"SuperAdmin superadmin accessed route: GET /users","service":"panopticon-chat","timestamp":"2026-01-24 23:43:41"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-24 23:43:41"}
+{"ip":"::1","level":"info","message":"POST /api/auth/register","service":"panopticon-chat","timestamp":"2026-01-24 23:46:23","userAgent":"curl/8.13.0"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-24 23:46:23"}
+{"ip":"::1","level":"info","message":"POST /api/auth/register","service":"panopticon-chat","timestamp":"2026-01-24 23:46:39","userAgent":"curl/8.13.0"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-24 23:46:39"}
+{"level":"info","message":"New user registered: bob (user)","service":"panopticon-chat","timestamp":"2026-01-24 23:46:39"}
+{"ip":"::1","level":"info","message":"POST /api/auth/login","service":"panopticon-chat","timestamp":"2026-01-24 23:48:20","userAgent":"curl/8.13.0"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-24 23:48:20"}
+{"level":"info","message":"User logged in: superadmin (superadmin)","service":"panopticon-chat","timestamp":"2026-01-24 23:48:20"}
+{"level":"error","message":"Socket authentication error: Invalid token","service":"panopticon-chat","stack":"Error: Invalid token\n    at Object.verifyToken (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\utils\\jwt.js:35:13)\n    at Array.<anonymous> (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\server.js:77:25)\n    at run (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\node_modules\\socket.io\\dist\\namespace.js:133:19)\n    at Namespace.run (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\node_modules\\socket.io\\dist\\namespace.js:144:9)\n    at Namespace._add (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\node_modules\\socket.io\\dist\\namespace.js:221:14)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","timestamp":"2026-01-24 23:49:36"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-24 23:50:05"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-24 23:50:05"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-24 23:50:05"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-24 23:50:05"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-24 23:50:05"}
+{"level":"info","message":"User connected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","role":"superadmin","service":"panopticon-chat","socketId":"vYBPyyypglSrCNcwAAAB","timestamp":"2026-01-24 23:50:06"}
+{"level":"info","message":"User superadmin joined room: room_c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-24 23:50:06"}
+{"level":"info","message":"SuperAdmin superadmin joined monitoring room","service":"panopticon-chat","timestamp":"2026-01-24 23:50:06"}
+{"ip":"::1","level":"info","message":"POST /api/auth/register","service":"panopticon-chat","timestamp":"2026-01-24 23:50:47","userAgent":"curl/8.13.0"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-24 23:50:47"}
+{"ip":"::1","level":"info","message":"POST /api/auth/register","service":"panopticon-chat","timestamp":"2026-01-24 23:50:50","userAgent":"curl/8.13.0"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-24 23:50:51"}
+{"ip":"::1","level":"info","message":"GET /api/admin/users","service":"panopticon-chat","timestamp":"2026-01-24 23:51:10","userAgent":"curl/8.13.0"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-24 23:51:10"}
+{"level":"info","message":"SuperAdmin superadmin accessed route: GET /users","service":"panopticon-chat","timestamp":"2026-01-24 23:51:10"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-24 23:51:10"}
+{"ip":"::1","level":"info","message":"GET /api/admin/logs","service":"panopticon-chat","timestamp":"2026-01-24 23:51:10","userAgent":"curl/8.13.0"}
+{"ip":"::1","level":"info","message":"GET /api/admin/messages/all","service":"panopticon-chat","timestamp":"2026-01-24 23:53:07","userAgent":"curl/8.13.0"}
+{"ip":"::1","level":"info","message":"GET /","service":"panopticon-chat","timestamp":"2026-01-24 23:54:10","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"POST /api/admin/users/701f8f8d-d8aa-4882-a229-e366a4eebed2/shadow-ban","service":"panopticon-chat","timestamp":"2026-01-24 23:58:18","userAgent":"curl/8.13.0"}
+{"level":"info","message":"User disconnected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","service":"panopticon-chat","timestamp":"2026-01-24 23:58:32"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-24 23:58:32"}
+{"ip":"::1","level":"info","message":"POST /api/auth/login","service":"panopticon-chat","timestamp":"2026-01-24 23:58:42","userAgent":"curl/8.13.0"}
+{"level":"info","message":"User logged in: superadmin (superadmin)","service":"panopticon-chat","timestamp":"2026-01-24 23:58:42"}
+{"ip":"::1","level":"info","message":"POST /api/admin/users/701f8f8d-d8aa-4882-a229-e366a4eebed2/shadow-ban","service":"panopticon-chat","timestamp":"2026-01-24 23:58:51","userAgent":"curl/8.13.0"}
+{"ip":"::1","level":"info","message":"POST /api/admin/users/701f8f8d-d8aa-4882-a229-e366a4eebed2/shadow-ban","service":"panopticon-chat","timestamp":"2026-01-24 23:59:55","userAgent":"curl/8.13.0"}
+{"ip":"::1","level":"info","message":"POST /api/admin/users/701f8f8d-d8aa-4882-a229-e366a4eebed2/shadow-ban","service":"panopticon-chat","timestamp":"2026-01-25 00:01:29","userAgent":"curl/8.13.0"}
+{"ip":"::1","level":"info","message":"POST /api/admin/users/701f8f8d-d8aa-4882-a229-e366a4eebed2/shadow-ban","service":"panopticon-chat","timestamp":"2026-01-25 00:06:41","userAgent":"curl/8.13.0"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 00:06:42"}
+{"level":"info","message":"User 701f8f8d-d8aa-4882-a229-e366a4eebed2 shadow banned by superadmin","service":"panopticon-chat","timestamp":"2026-01-25 00:06:42"}
+{"ip":"::1","level":"info","message":"GET /api/admin/users","service":"panopticon-chat","timestamp":"2026-01-25 00:16:22","userAgent":"curl/8.13.0"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 00:16:22"}
+{"level":"info","message":"SuperAdmin superadmin accessed route: GET /users","service":"panopticon-chat","timestamp":"2026-01-25 00:16:22"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 00:16:22"}
+{"ip":"::1","level":"info","message":"GET /api/admin/logs","service":"panopticon-chat","timestamp":"2026-01-25 00:17:46","userAgent":"curl/8.13.0"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 00:23:23"}
+{"level":"info","message":"User connected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","role":"superadmin","service":"panopticon-chat","socketId":"1V_tap2FnKSOeZ86AAAD","timestamp":"2026-01-25 00:23:23"}
+{"level":"info","message":"User superadmin joined room: room_c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-25 00:23:23"}
+{"level":"info","message":"SuperAdmin superadmin joined monitoring room","service":"panopticon-chat","timestamp":"2026-01-25 00:23:23"}
+{"level":"info","message":"User disconnected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","service":"panopticon-chat","timestamp":"2026-01-25 00:23:28"}
+{"ip":"::1","level":"info","message":"POST /api/auth/register","service":"panopticon-chat","timestamp":"2026-01-25 00:24:09","userAgent":"curl/8.13.0"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 00:24:09"}
+{"ip":"::1","level":"info","message":"POST /api/auth/register","service":"panopticon-chat","timestamp":"2026-01-25 00:24:24","userAgent":"curl/8.13.0"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 00:24:24"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 00:34:39"}
+{"level":"info","message":"User connected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","role":"superadmin","service":"panopticon-chat","socketId":"_Y9RMu5VbL0bHj_TAAAF","timestamp":"2026-01-25 00:34:39"}
+{"level":"info","message":"User superadmin joined room: room_c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-25 00:34:39"}
+{"level":"info","message":"SuperAdmin superadmin joined monitoring room","service":"panopticon-chat","timestamp":"2026-01-25 00:34:39"}
+{"level":"info","message":"User disconnected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","service":"panopticon-chat","timestamp":"2026-01-25 00:34:55"}
+{"ip":"::1","level":"info","message":"POST /api/auth/register","service":"panopticon-chat","timestamp":"2026-01-25 00:35:14","userAgent":"curl/8.13.0"}
+{"level":"info","message":"New user registered: alice (user)","service":"panopticon-chat","timestamp":"2026-01-25 00:35:14"}
+{"ip":"::1","level":"info","message":"POST /api/auth/register","service":"panopticon-chat","timestamp":"2026-01-25 00:35:17","userAgent":"curl/8.13.0"}
+{"level":"info","message":"New user registered: bob (user)","service":"panopticon-chat","timestamp":"2026-01-25 00:35:17"}
+{"ip":"::1","level":"info","message":"GET /api/admin/users","service":"panopticon-chat","timestamp":"2026-01-25 00:35:50","userAgent":"curl/8.13.0"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 00:35:50"}
+{"level":"info","message":"SuperAdmin superadmin accessed route: GET /users","service":"panopticon-chat","timestamp":"2026-01-25 00:35:50"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 00:35:50"}
+{"ip":"::1","level":"info","message":"GET /api/admin/logs","service":"panopticon-chat","timestamp":"2026-01-25 00:36:51","userAgent":"curl/8.13.0"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 00:36:51"}
+{"level":"info","message":"SuperAdmin superadmin accessed route: GET /logs","service":"panopticon-chat","timestamp":"2026-01-25 00:36:51"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 00:36:51"}
+{"ip":"::1","level":"info","message":"GET /api/admin/messages/all","service":"panopticon-chat","timestamp":"2026-01-25 00:38:00","userAgent":"curl/8.13.0"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 00:38:00"}
+{"level":"info","message":"SuperAdmin superadmin accessed route: GET /messages/all","service":"panopticon-chat","timestamp":"2026-01-25 00:38:00"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 00:38:00"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-25 00:59:14"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-25 00:59:14"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-25 00:59:14"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 00:59:14"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-25 00:59:14"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-25 00:59:20"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-25 00:59:20"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-25 00:59:20"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 00:59:21"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-25 00:59:21"}
+{"level":"error","message":"Socket authentication error: Invalid token","service":"panopticon-chat","stack":"Error: Invalid token\n    at Object.verifyToken (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\utils\\jwt.js:35:13)\n    at Array.<anonymous> (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\server.js:77:25)\n    at run (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\node_modules\\socket.io\\dist\\namespace.js:133:19)\n    at Namespace.run (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\node_modules\\socket.io\\dist\\namespace.js:144:9)\n    at Namespace._add (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\node_modules\\socket.io\\dist\\namespace.js:221:14)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","timestamp":"2026-01-25 00:59:29"}
+{"level":"error","message":"Socket authentication error: Invalid token","service":"panopticon-chat","stack":"Error: Invalid token\n    at Object.verifyToken (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\utils\\jwt.js:35:13)\n    at Array.<anonymous> (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\server.js:77:25)\n    at run (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\node_modules\\socket.io\\dist\\namespace.js:133:19)\n    at Namespace.run (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\node_modules\\socket.io\\dist\\namespace.js:144:9)\n    at Namespace._add (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\node_modules\\socket.io\\dist\\namespace.js:221:14)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","timestamp":"2026-01-25 00:59:30"}
+{"level":"error","message":"Socket authentication error: Invalid token","service":"panopticon-chat","stack":"Error: Invalid token\n    at Object.verifyToken (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\utils\\jwt.js:35:13)\n    at Array.<anonymous> (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\server.js:77:25)\n    at run (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\node_modules\\socket.io\\dist\\namespace.js:133:19)\n    at Namespace.run (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\node_modules\\socket.io\\dist\\namespace.js:144:9)\n    at Namespace._add (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\node_modules\\socket.io\\dist\\namespace.js:221:14)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","timestamp":"2026-01-25 00:59:32"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-25 01:00:18"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-25 01:00:18"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-25 01:00:18"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 01:00:18"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-25 01:00:18"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-25 01:01:08"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-25 01:01:08"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-25 01:01:08"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 01:01:08"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-25 01:01:08"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-25 01:01:41"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-25 01:01:41"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-25 01:01:41"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 01:01:41"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-25 01:01:41"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-25 01:02:22"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-25 01:02:22"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-25 01:02:22"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 01:02:22"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-25 01:02:22"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-25 01:02:37"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-25 01:02:37"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-25 01:02:37"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 01:02:37"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-25 01:02:37"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-25 01:03:00"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-25 01:03:00"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-25 01:03:00"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 01:03:01"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-25 01:03:01"}
+{"level":"info","message":"User connected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","role":"superadmin","service":"panopticon-chat","socketId":"m_NHBvusLGffuckBAAAB","timestamp":"2026-01-25 01:03:04"}
+{"level":"info","message":"User superadmin joined room: room_c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-25 01:03:04"}
+{"level":"info","message":"SuperAdmin superadmin joined monitoring room","service":"panopticon-chat","timestamp":"2026-01-25 01:03:04"}
+{"level":"info","message":"User connected: bob (58cbf728-5727-4d6f-8741-d26fbafb5342)","role":"user","service":"panopticon-chat","socketId":"7eBMCFatetNlJAP6AAAD","timestamp":"2026-01-25 01:03:05"}
+{"level":"info","message":"User bob joined room: room_58cbf728-5727-4d6f-8741-d26fbafb5342","service":"panopticon-chat","timestamp":"2026-01-25 01:03:05"}
+{"level":"info","message":"User connected: alice (8a87e2d8-a37f-46c0-bc71-f8d2d3afa80c)","role":"user","service":"panopticon-chat","socketId":"nO-UeObJoISrrwUNAAAF","timestamp":"2026-01-25 01:03:07"}
+{"level":"info","message":"User alice joined room: room_8a87e2d8-a37f-46c0-bc71-f8d2d3afa80c","service":"panopticon-chat","timestamp":"2026-01-25 01:03:07"}
+{"level":"info","message":"Message sent: bob -> Receiver 8a87e2d8-a37f-46c0-bc71-f8d2d3afa80c","service":"panopticon-chat","timestamp":"2026-01-25 01:03:10"}
+{"level":"info","message":"Message sent: alice -> Receiver 58cbf728-5727-4d6f-8741-d26fbafb5342","service":"panopticon-chat","timestamp":"2026-01-25 01:03:12"}
+{"level":"info","message":"Message sent: bob -> Receiver 8a87e2d8-a37f-46c0-bc71-f8d2d3afa80c","service":"panopticon-chat","timestamp":"2026-01-25 01:03:14"}
+{"level":"info","message":"User disconnected: bob (58cbf728-5727-4d6f-8741-d26fbafb5342)","service":"panopticon-chat","timestamp":"2026-01-25 01:03:24"}
+{"level":"info","message":"User disconnected: alice (8a87e2d8-a37f-46c0-bc71-f8d2d3afa80c)","service":"panopticon-chat","timestamp":"2026-01-25 01:03:24"}
+{"level":"info","message":"User disconnected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","service":"panopticon-chat","timestamp":"2026-01-25 01:03:24"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 01:03:24"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 01:03:24"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-25 01:06:52"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-25 01:06:52"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-25 01:06:52"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 01:06:52"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-25 01:06:52"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 01:10:57"}
+{"level":"info","message":"User connected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","role":"superadmin","service":"panopticon-chat","socketId":"_sLu6aEcXQlKqv25AAAB","timestamp":"2026-01-25 01:10:57"}
+{"level":"info","message":"User superadmin joined room: room_c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-25 01:10:57"}
+{"level":"info","message":"SuperAdmin superadmin joined monitoring room","service":"panopticon-chat","timestamp":"2026-01-25 01:10:57"}
+{"level":"info","message":"User connected: bob (58cbf728-5727-4d6f-8741-d26fbafb5342)","role":"user","service":"panopticon-chat","socketId":"sCPBLQ3Y3u8uInKoAAAD","timestamp":"2026-01-25 01:10:58"}
+{"level":"info","message":"User bob joined room: room_58cbf728-5727-4d6f-8741-d26fbafb5342","service":"panopticon-chat","timestamp":"2026-01-25 01:10:58"}
+{"level":"info","message":"User connected: alice (8a87e2d8-a37f-46c0-bc71-f8d2d3afa80c)","role":"user","service":"panopticon-chat","socketId":"cX9V_cWaeY71pjSGAAAF","timestamp":"2026-01-25 01:11:00"}
+{"level":"info","message":"User alice joined room: room_8a87e2d8-a37f-46c0-bc71-f8d2d3afa80c","service":"panopticon-chat","timestamp":"2026-01-25 01:11:00"}
+{"level":"info","message":"Message sent: bob -> Receiver 8a87e2d8-a37f-46c0-bc71-f8d2d3afa80c","service":"panopticon-chat","timestamp":"2026-01-25 01:11:03"}
+{"level":"warn","message":"Shadow banned user alice attempted to send message","receiverId":"58cbf728-5727-4d6f-8741-d26fbafb5342","senderId":"8a87e2d8-a37f-46c0-bc71-f8d2d3afa80c","service":"panopticon-chat","timestamp":"2026-01-25 01:11:05"}
+{"level":"info","message":"Message sent: bob -> Receiver 8a87e2d8-a37f-46c0-bc71-f8d2d3afa80c","service":"panopticon-chat","timestamp":"2026-01-25 01:11:07"}
+{"level":"info","message":"User disconnected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","service":"panopticon-chat","timestamp":"2026-01-25 01:11:25"}
+{"level":"info","message":"User disconnected: bob (58cbf728-5727-4d6f-8741-d26fbafb5342)","service":"panopticon-chat","timestamp":"2026-01-25 01:11:25"}
+{"level":"info","message":"User disconnected: alice (8a87e2d8-a37f-46c0-bc71-f8d2d3afa80c)","service":"panopticon-chat","timestamp":"2026-01-25 01:11:25"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 01:11:25"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 01:11:25"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-25 01:35:04"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-25 01:35:04"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-25 01:35:04"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 01:35:04"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-25 01:35:04"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-25 02:12:04"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-25 02:12:04"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-25 02:12:04"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 02:12:05"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-25 02:12:05"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-25 09:18:11"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-25 09:18:11"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-25 09:18:11"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 09:18:11"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-25 09:18:11"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-25 13:23:36"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-25 13:23:36"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-25 13:23:36"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 13:23:37"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-25 13:23:37"}
+{"ip":"::1","level":"info","message":"GET /","service":"panopticon-chat","timestamp":"2026-01-25 13:45:17","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"POST /api/auth/register","service":"panopticon-chat","timestamp":"2026-01-25 15:12:51","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 15:12:51"}
+{"level":"info","message":"New user registered: ELA (user)","service":"panopticon-chat","timestamp":"2026-01-25 15:12:51"}
+{"ip":"::1","level":"info","message":"GET /api/users","service":"panopticon-chat","timestamp":"2026-01-25 15:12:51","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/users","service":"panopticon-chat","timestamp":"2026-01-25 15:12:51","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 15:12:51"}
+{"level":"info","message":"User connected: ELA (91d7bea3-a7b6-45e1-83da-1d57b4830463)","role":"user","service":"panopticon-chat","socketId":"1FBMhL8EmcI5bL4OAAAB","timestamp":"2026-01-25 15:12:51"}
+{"level":"info","message":"User ELA joined room: room_91d7bea3-a7b6-45e1-83da-1d57b4830463","service":"panopticon-chat","timestamp":"2026-01-25 15:12:51"}
+{"ip":"::1","level":"info","message":"POST /api/auth/logout","service":"panopticon-chat","timestamp":"2026-01-25 15:13:11","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"User disconnected: ELA (91d7bea3-a7b6-45e1-83da-1d57b4830463)","service":"panopticon-chat","timestamp":"2026-01-25 15:13:11"}
+{"ip":"::1","level":"info","message":"POST /api/auth/login","service":"panopticon-chat","timestamp":"2026-01-25 15:13:32","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"User logged in: superadmin (superadmin)","service":"panopticon-chat","timestamp":"2026-01-25 15:13:36"}
+{"level":"info","message":"User connected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","role":"superadmin","service":"panopticon-chat","socketId":"0Gf_Kkh9rpV-U6T3AAAD","timestamp":"2026-01-25 15:13:37"}
+{"level":"info","message":"User superadmin joined room: room_c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-25 15:13:37"}
+{"level":"info","message":"SuperAdmin superadmin joined monitoring room","service":"panopticon-chat","timestamp":"2026-01-25 15:13:37"}
+{"ip":"::1","level":"info","message":"GET /api/admin/users","service":"panopticon-chat","timestamp":"2026-01-25 15:16:00","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 15:16:00"}
+{"level":"info","message":"SuperAdmin superadmin accessed route: GET /users","service":"panopticon-chat","timestamp":"2026-01-25 15:16:00"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 15:16:00"}
+{"ip":"::1","level":"info","message":"GET /api/admin/users","service":"panopticon-chat","timestamp":"2026-01-25 15:16:00","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"SuperAdmin superadmin accessed route: GET /users","service":"panopticon-chat","timestamp":"2026-01-25 15:16:00"}
+{"ip":"::1","level":"info","message":"POST /api/auth/login","service":"panopticon-chat","timestamp":"2026-01-25 15:18:24","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 15:18:24"}
+{"level":"info","message":"User logged in: ELA (user)","service":"panopticon-chat","timestamp":"2026-01-25 15:18:25"}
+{"ip":"::1","level":"info","message":"GET /api/users","service":"panopticon-chat","timestamp":"2026-01-25 15:18:25","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/users","service":"panopticon-chat","timestamp":"2026-01-25 15:18:25","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 15:18:25"}
+{"level":"info","message":"User connected: ELA (91d7bea3-a7b6-45e1-83da-1d57b4830463)","role":"user","service":"panopticon-chat","socketId":"9uYXcE1Ae1kxsJAaAAAF","timestamp":"2026-01-25 15:18:25"}
+{"level":"info","message":"User ELA joined room: room_91d7bea3-a7b6-45e1-83da-1d57b4830463","service":"panopticon-chat","timestamp":"2026-01-25 15:18:25"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-25 15:18:30","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"Message sent: ELA -> Receiver c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-25 15:18:35"}
+{"ip":"::1","level":"info","message":"GET /api/admin/users","service":"panopticon-chat","timestamp":"2026-01-25 15:18:53","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"SuperAdmin superadmin accessed route: GET /users","service":"panopticon-chat","timestamp":"2026-01-25 15:18:53"}
+{"ip":"::1","level":"info","message":"GET /api/admin/users","service":"panopticon-chat","timestamp":"2026-01-25 15:18:53","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"SuperAdmin superadmin accessed route: GET /users","service":"panopticon-chat","timestamp":"2026-01-25 15:18:53"}
+{"ip":"::1","level":"info","message":"POST /api/admin/users/91d7bea3-a7b6-45e1-83da-1d57b4830463/shadow-ban","service":"panopticon-chat","timestamp":"2026-01-25 15:18:58","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"User 91d7bea3-a7b6-45e1-83da-1d57b4830463 shadow banned by superadmin","service":"panopticon-chat","timestamp":"2026-01-25 15:18:58"}
+{"ip":"::1","level":"info","message":"GET /api/admin/users","service":"panopticon-chat","timestamp":"2026-01-25 15:18:58","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"SuperAdmin superadmin accessed route: GET /users","service":"panopticon-chat","timestamp":"2026-01-25 15:18:58"}
+{"level":"info","message":"User disconnected: ELA (91d7bea3-a7b6-45e1-83da-1d57b4830463)","service":"panopticon-chat","timestamp":"2026-01-25 15:19:06"}
+{"ip":"::1","level":"info","message":"GET /api/users","service":"panopticon-chat","timestamp":"2026-01-25 15:19:06","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"User connected: ELA (91d7bea3-a7b6-45e1-83da-1d57b4830463)","role":"user","service":"panopticon-chat","socketId":"Zj_uLK32ZxDQRRm_AAAH","timestamp":"2026-01-25 15:19:06"}
+{"level":"info","message":"User ELA joined room: room_91d7bea3-a7b6-45e1-83da-1d57b4830463","service":"panopticon-chat","timestamp":"2026-01-25 15:19:06"}
+{"ip":"::1","level":"info","message":"GET /api/users","service":"panopticon-chat","timestamp":"2026-01-25 15:19:06","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-25 15:19:08","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"warn","message":"Shadow banned user ELA attempted to send message","receiverId":"c5c29dfa-3269-44f7-b4f4-7170a496f2cf","senderId":"91d7bea3-a7b6-45e1-83da-1d57b4830463","service":"panopticon-chat","timestamp":"2026-01-25 15:19:14"}
+{"level":"info","message":"User disconnected: ELA (91d7bea3-a7b6-45e1-83da-1d57b4830463)","service":"panopticon-chat","timestamp":"2026-01-25 15:19:18"}
+{"ip":"::1","level":"info","message":"GET /api/users","service":"panopticon-chat","timestamp":"2026-01-25 15:19:18","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"User connected: ELA (91d7bea3-a7b6-45e1-83da-1d57b4830463)","role":"user","service":"panopticon-chat","socketId":"p3mdpIcE0gJZfpJqAAAJ","timestamp":"2026-01-25 15:19:18"}
+{"level":"info","message":"User ELA joined room: room_91d7bea3-a7b6-45e1-83da-1d57b4830463","service":"panopticon-chat","timestamp":"2026-01-25 15:19:18"}
+{"ip":"::1","level":"info","message":"GET /api/users","service":"panopticon-chat","timestamp":"2026-01-25 15:19:18","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-25 15:19:19","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"POST /api/admin/users/91d7bea3-a7b6-45e1-83da-1d57b4830463/shadow-ban","service":"panopticon-chat","timestamp":"2026-01-25 15:19:31","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"User 91d7bea3-a7b6-45e1-83da-1d57b4830463 unbanned by superadmin","service":"panopticon-chat","timestamp":"2026-01-25 15:19:31"}
+{"ip":"::1","level":"info","message":"GET /api/admin/users","service":"panopticon-chat","timestamp":"2026-01-25 15:19:31","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"SuperAdmin superadmin accessed route: GET /users","service":"panopticon-chat","timestamp":"2026-01-25 15:19:31"}
+{"level":"info","message":"User disconnected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","service":"panopticon-chat","timestamp":"2026-01-25 15:19:40"}
+{"level":"info","message":"User connected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","role":"superadmin","service":"panopticon-chat","socketId":"Mt6Nx5o1JfGwH1b6AAAL","timestamp":"2026-01-25 15:19:48"}
+{"level":"info","message":"User superadmin joined room: room_c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-25 15:19:48"}
+{"level":"info","message":"SuperAdmin superadmin joined monitoring room","service":"panopticon-chat","timestamp":"2026-01-25 15:19:48"}
+{"ip":"::1","level":"info","message":"GET /api/admin/users","service":"panopticon-chat","timestamp":"2026-01-25 15:19:55","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"SuperAdmin superadmin accessed route: GET /users","service":"panopticon-chat","timestamp":"2026-01-25 15:19:55"}
+{"ip":"::1","level":"info","message":"GET /api/admin/users","service":"panopticon-chat","timestamp":"2026-01-25 15:19:55","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"SuperAdmin superadmin accessed route: GET /users","service":"panopticon-chat","timestamp":"2026-01-25 15:19:55"}
+{"level":"info","message":"User disconnected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","service":"panopticon-chat","timestamp":"2026-01-25 15:20:00"}
+{"level":"info","message":"User connected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","role":"superadmin","service":"panopticon-chat","socketId":"Sj4wch2jMDS-M8Q5AAAN","timestamp":"2026-01-25 15:20:05"}
+{"level":"info","message":"User superadmin joined room: room_c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-25 15:20:05"}
+{"level":"info","message":"SuperAdmin superadmin joined monitoring room","service":"panopticon-chat","timestamp":"2026-01-25 15:20:05"}
+{"ip":"::1","level":"info","message":"GET /api/admin/users","service":"panopticon-chat","timestamp":"2026-01-25 15:20:07","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"SuperAdmin superadmin accessed route: GET /users","service":"panopticon-chat","timestamp":"2026-01-25 15:20:07"}
+{"ip":"::1","level":"info","message":"GET /api/admin/users","service":"panopticon-chat","timestamp":"2026-01-25 15:20:07","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"SuperAdmin superadmin accessed route: GET /users","service":"panopticon-chat","timestamp":"2026-01-25 15:20:07"}
+{"level":"info","message":"User disconnected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","service":"panopticon-chat","timestamp":"2026-01-25 15:20:08"}
+{"level":"info","message":"User connected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","role":"superadmin","service":"panopticon-chat","socketId":"LBfptK4tPCrxDpjcAAAP","timestamp":"2026-01-25 15:20:15"}
+{"level":"info","message":"User superadmin joined room: room_c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-25 15:20:15"}
+{"level":"info","message":"SuperAdmin superadmin joined monitoring room","service":"panopticon-chat","timestamp":"2026-01-25 15:20:15"}
+{"level":"info","message":"User disconnected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","service":"panopticon-chat","timestamp":"2026-01-25 15:20:17"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 15:21:26"}
+{"level":"info","message":"User connected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","role":"superadmin","service":"panopticon-chat","socketId":"ZQE3RlI6souw_9BOAAAR","timestamp":"2026-01-25 15:21:26"}
+{"level":"info","message":"User superadmin joined room: room_c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-25 15:21:26"}
+{"level":"info","message":"SuperAdmin superadmin joined monitoring room","service":"panopticon-chat","timestamp":"2026-01-25 15:21:26"}
+{"ip":"::1","level":"info","message":"GET /api/admin/messages/all","service":"panopticon-chat","timestamp":"2026-01-25 15:21:29","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"SuperAdmin superadmin accessed route: GET /messages/all","service":"panopticon-chat","timestamp":"2026-01-25 15:21:29"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 15:21:29"}
+{"ip":"::1","level":"info","message":"GET /api/admin/messages/all","service":"panopticon-chat","timestamp":"2026-01-25 15:21:29","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"SuperAdmin superadmin accessed route: GET /messages/all","service":"panopticon-chat","timestamp":"2026-01-25 15:21:29"}
+{"ip":"::1","level":"info","message":"GET /api/admin/messages/all","service":"panopticon-chat","timestamp":"2026-01-25 15:21:30","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"SuperAdmin superadmin accessed route: GET /messages/all","service":"panopticon-chat","timestamp":"2026-01-25 15:21:30"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/58cbf728-5727-4d6f-8741-d26fbafb5342","service":"panopticon-chat","timestamp":"2026-01-25 15:21:43","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-25 15:21:44","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"User disconnected: ELA (91d7bea3-a7b6-45e1-83da-1d57b4830463)","service":"panopticon-chat","timestamp":"2026-01-25 15:21:45"}
+{"level":"info","message":"User connected: ELA (91d7bea3-a7b6-45e1-83da-1d57b4830463)","role":"user","service":"panopticon-chat","socketId":"oFDHhAKKeh3Sm11MAAAT","timestamp":"2026-01-25 15:21:46"}
+{"level":"info","message":"User ELA joined room: room_91d7bea3-a7b6-45e1-83da-1d57b4830463","service":"panopticon-chat","timestamp":"2026-01-25 15:21:46"}
+{"ip":"::1","level":"info","message":"GET /api/users","service":"panopticon-chat","timestamp":"2026-01-25 15:21:46","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/users","service":"panopticon-chat","timestamp":"2026-01-25 15:21:46","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/8a87e2d8-a37f-46c0-bc71-f8d2d3afa80c","service":"panopticon-chat","timestamp":"2026-01-25 15:21:57","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/58cbf728-5727-4d6f-8741-d26fbafb5342","service":"panopticon-chat","timestamp":"2026-01-25 15:22:38","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 15:22:38"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/8a87e2d8-a37f-46c0-bc71-f8d2d3afa80c","service":"panopticon-chat","timestamp":"2026-01-25 15:22:39","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/58cbf728-5727-4d6f-8741-d26fbafb5342","service":"panopticon-chat","timestamp":"2026-01-25 15:22:39","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-25 15:22:40","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"Message sent: ELA -> Receiver c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-25 15:22:43"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/58cbf728-5727-4d6f-8741-d26fbafb5342","service":"panopticon-chat","timestamp":"2026-01-25 15:22:46","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-25 15:22:46","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/admin/logs","service":"panopticon-chat","timestamp":"2026-01-25 15:23:17","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 15:23:17"}
+{"level":"info","message":"SuperAdmin superadmin accessed route: GET /logs","service":"panopticon-chat","timestamp":"2026-01-25 15:23:17"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 15:23:17"}
+{"ip":"::1","level":"info","message":"GET /api/admin/logs","service":"panopticon-chat","timestamp":"2026-01-25 15:23:17","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"SuperAdmin superadmin accessed route: GET /logs","service":"panopticon-chat","timestamp":"2026-01-25 15:23:17"}
+{"ip":"::1","level":"info","message":"GET /api/admin/logs","service":"panopticon-chat","timestamp":"2026-01-25 15:23:23","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"SuperAdmin superadmin accessed route: GET /logs","service":"panopticon-chat","timestamp":"2026-01-25 15:23:23"}
+{"ip":"::1","level":"info","message":"GET /api/admin/users","service":"panopticon-chat","timestamp":"2026-01-25 15:23:54","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 15:23:54"}
+{"level":"info","message":"SuperAdmin superadmin accessed route: GET /users","service":"panopticon-chat","timestamp":"2026-01-25 15:23:54"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 15:23:54"}
+{"ip":"::1","level":"info","message":"GET /api/admin/users","service":"panopticon-chat","timestamp":"2026-01-25 15:23:55","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"SuperAdmin superadmin accessed route: GET /users","service":"panopticon-chat","timestamp":"2026-01-25 15:23:55"}
+{"level":"info","message":"User disconnected: ELA (91d7bea3-a7b6-45e1-83da-1d57b4830463)","service":"panopticon-chat","timestamp":"2026-01-25 15:28:16"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 15:28:16"}
+{"ip":"::1","level":"info","message":"GET /api/users","service":"panopticon-chat","timestamp":"2026-01-25 15:28:16","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"User connected: ELA (91d7bea3-a7b6-45e1-83da-1d57b4830463)","role":"user","service":"panopticon-chat","socketId":"AlMnQchTTh3f9xiBAAAV","timestamp":"2026-01-25 15:28:16"}
+{"level":"info","message":"User ELA joined room: room_91d7bea3-a7b6-45e1-83da-1d57b4830463","service":"panopticon-chat","timestamp":"2026-01-25 15:28:16"}
+{"ip":"::1","level":"info","message":"GET /api/users","service":"panopticon-chat","timestamp":"2026-01-25 15:28:16","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 15:28:17"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-25 15:28:18","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/58cbf728-5727-4d6f-8741-d26fbafb5342","service":"panopticon-chat","timestamp":"2026-01-25 15:28:25","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-25 15:28:26","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"Message sent: ELA -> Receiver c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-25 15:28:29"}
+{"level":"info","message":"User disconnected: ELA (91d7bea3-a7b6-45e1-83da-1d57b4830463)","service":"panopticon-chat","timestamp":"2026-01-25 15:28:41"}
+{"level":"info","message":"User connected: ELA (91d7bea3-a7b6-45e1-83da-1d57b4830463)","role":"user","service":"panopticon-chat","socketId":"NGqDGXHJCFHukPZDAAAX","timestamp":"2026-01-25 15:28:41"}
+{"level":"info","message":"User ELA joined room: room_91d7bea3-a7b6-45e1-83da-1d57b4830463","service":"panopticon-chat","timestamp":"2026-01-25 15:28:41"}
+{"ip":"::1","level":"info","message":"GET /api/users","service":"panopticon-chat","timestamp":"2026-01-25 15:28:41","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/users","service":"panopticon-chat","timestamp":"2026-01-25 15:28:41","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-25 15:28:42","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"POST /api/auth/register","service":"panopticon-chat","timestamp":"2026-01-25 15:29:48","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 15:29:49"}
+{"level":"info","message":"New user registered: Rafi (user)","service":"panopticon-chat","timestamp":"2026-01-25 15:29:49"}
+{"ip":"::1","level":"info","message":"GET /api/users","service":"panopticon-chat","timestamp":"2026-01-25 15:29:49","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"User connected: Rafi (89ab5f38-efb8-4508-a3c0-39a1627835ea)","role":"user","service":"panopticon-chat","socketId":"G0oLzPKKhop5ck76AAAZ","timestamp":"2026-01-25 15:29:49"}
+{"level":"info","message":"User Rafi joined room: room_89ab5f38-efb8-4508-a3c0-39a1627835ea","service":"panopticon-chat","timestamp":"2026-01-25 15:29:49"}
+{"ip":"::1","level":"info","message":"GET /api/users","service":"panopticon-chat","timestamp":"2026-01-25 15:29:49","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 15:29:49"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/91d7bea3-a7b6-45e1-83da-1d57b4830463","service":"panopticon-chat","timestamp":"2026-01-25 15:29:51","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"Message sent: Rafi -> Receiver 91d7bea3-a7b6-45e1-83da-1d57b4830463","service":"panopticon-chat","timestamp":"2026-01-25 15:29:55"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-25 15:29:56","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/91d7bea3-a7b6-45e1-83da-1d57b4830463","service":"panopticon-chat","timestamp":"2026-01-25 15:29:57","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"User disconnected: ELA (91d7bea3-a7b6-45e1-83da-1d57b4830463)","service":"panopticon-chat","timestamp":"2026-01-25 15:30:03"}
+{"ip":"::1","level":"info","message":"GET /api/users","service":"panopticon-chat","timestamp":"2026-01-25 15:30:03","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"User connected: ELA (91d7bea3-a7b6-45e1-83da-1d57b4830463)","role":"user","service":"panopticon-chat","socketId":"egmcxyvLK8c8OIbCAAAb","timestamp":"2026-01-25 15:30:03"}
+{"level":"info","message":"User ELA joined room: room_91d7bea3-a7b6-45e1-83da-1d57b4830463","service":"panopticon-chat","timestamp":"2026-01-25 15:30:03"}
+{"ip":"::1","level":"info","message":"GET /api/users","service":"panopticon-chat","timestamp":"2026-01-25 15:30:03","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/89ab5f38-efb8-4508-a3c0-39a1627835ea","service":"panopticon-chat","timestamp":"2026-01-25 15:30:04","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"Message sent: ELA -> Receiver 89ab5f38-efb8-4508-a3c0-39a1627835ea","service":"panopticon-chat","timestamp":"2026-01-25 15:30:11"}
+{"level":"info","message":"Message sent: Rafi -> Receiver 91d7bea3-a7b6-45e1-83da-1d57b4830463","service":"panopticon-chat","timestamp":"2026-01-25 15:30:28"}
+{"level":"info","message":"Message sent: ELA -> Receiver 89ab5f38-efb8-4508-a3c0-39a1627835ea","service":"panopticon-chat","timestamp":"2026-01-25 15:30:32"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-25 15:35:17"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-25 15:35:17"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-25 15:35:17"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 15:35:17"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-25 15:35:17"}
+{"ip":"::1","level":"info","message":"GET /api/users","service":"panopticon-chat","timestamp":"2026-01-25 15:35:29","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"User connected: ELA (91d7bea3-a7b6-45e1-83da-1d57b4830463)","role":"user","service":"panopticon-chat","socketId":"R3RhuW4oUcWGlaW7AAAB","timestamp":"2026-01-25 15:35:29"}
+{"level":"info","message":"User ELA joined room: room_91d7bea3-a7b6-45e1-83da-1d57b4830463","service":"panopticon-chat","timestamp":"2026-01-25 15:35:29"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 15:35:29"}
+{"level":"info","message":"User disconnected: ELA (91d7bea3-a7b6-45e1-83da-1d57b4830463)","service":"panopticon-chat","timestamp":"2026-01-25 15:35:29"}
+{"ip":"::1","level":"info","message":"GET /api/users","service":"panopticon-chat","timestamp":"2026-01-25 15:35:31","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"User connected: ELA (91d7bea3-a7b6-45e1-83da-1d57b4830463)","role":"user","service":"panopticon-chat","socketId":"jEJ0OwQIAVTXdIo9AAAD","timestamp":"2026-01-25 15:35:31"}
+{"level":"info","message":"User ELA joined room: room_91d7bea3-a7b6-45e1-83da-1d57b4830463","service":"panopticon-chat","timestamp":"2026-01-25 15:35:31"}
+{"ip":"::1","level":"info","message":"GET /api/users","service":"panopticon-chat","timestamp":"2026-01-25 15:35:31","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/89ab5f38-efb8-4508-a3c0-39a1627835ea","service":"panopticon-chat","timestamp":"2026-01-25 15:35:32","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/users","service":"panopticon-chat","timestamp":"2026-01-25 15:35:51","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"User connected: Rafi (89ab5f38-efb8-4508-a3c0-39a1627835ea)","role":"user","service":"panopticon-chat","socketId":"B2rwpc2UzsaeT00oAAAF","timestamp":"2026-01-25 15:35:51"}
+{"level":"info","message":"User Rafi joined room: room_89ab5f38-efb8-4508-a3c0-39a1627835ea","service":"panopticon-chat","timestamp":"2026-01-25 15:35:51"}
+{"ip":"::1","level":"info","message":"GET /api/users","service":"panopticon-chat","timestamp":"2026-01-25 15:35:51","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/58cbf728-5727-4d6f-8741-d26fbafb5342","service":"panopticon-chat","timestamp":"2026-01-25 15:35:53","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/8a87e2d8-a37f-46c0-bc71-f8d2d3afa80c","service":"panopticon-chat","timestamp":"2026-01-25 15:35:54","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/91d7bea3-a7b6-45e1-83da-1d57b4830463","service":"panopticon-chat","timestamp":"2026-01-25 15:35:54","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/58cbf728-5727-4d6f-8741-d26fbafb5342","service":"panopticon-chat","timestamp":"2026-01-25 15:35:56","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/8a87e2d8-a37f-46c0-bc71-f8d2d3afa80c","service":"panopticon-chat","timestamp":"2026-01-25 15:35:57","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/91d7bea3-a7b6-45e1-83da-1d57b4830463","service":"panopticon-chat","timestamp":"2026-01-25 15:35:58","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-25 15:35:59","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/91d7bea3-a7b6-45e1-83da-1d57b4830463","service":"panopticon-chat","timestamp":"2026-01-25 15:35:59","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-25 15:36:00","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/89ab5f38-efb8-4508-a3c0-39a1627835ea","service":"panopticon-chat","timestamp":"2026-01-25 15:36:01","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"User connected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","role":"superadmin","service":"panopticon-chat","socketId":"YawMCOgJxeI7dmyeAAAH","timestamp":"2026-01-25 15:36:13"}
+{"level":"info","message":"User superadmin joined room: room_c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-25 15:36:13"}
+{"level":"info","message":"SuperAdmin superadmin joined monitoring room","service":"panopticon-chat","timestamp":"2026-01-25 15:36:13"}
+{"level":"info","message":"User disconnected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","service":"panopticon-chat","timestamp":"2026-01-25 15:42:20"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 15:42:20"}
+{"level":"info","message":"User connected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","role":"superadmin","service":"panopticon-chat","socketId":"Bn_gBEyVlCf6_rXaAAAJ","timestamp":"2026-01-25 15:42:21"}
+{"level":"info","message":"User superadmin joined room: room_c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-25 15:42:21"}
+{"level":"info","message":"SuperAdmin superadmin joined monitoring room","service":"panopticon-chat","timestamp":"2026-01-25 15:42:21"}
+{"level":"info","message":"User disconnected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","service":"panopticon-chat","timestamp":"2026-01-25 15:44:14"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 15:44:14"}
+{"level":"info","message":"User connected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","role":"superadmin","service":"panopticon-chat","socketId":"jS_IPPQpN_Dkp_XoAAAL","timestamp":"2026-01-25 15:44:15"}
+{"level":"info","message":"User superadmin joined room: room_c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-25 15:44:15"}
+{"level":"info","message":"SuperAdmin superadmin joined monitoring room","service":"panopticon-chat","timestamp":"2026-01-25 15:44:15"}
+{"level":"info","message":"User disconnected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","service":"panopticon-chat","timestamp":"2026-01-25 15:44:27"}
+{"level":"info","message":"User connected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","role":"superadmin","service":"panopticon-chat","socketId":"n20MWZy30R7U8LZpAAAN","timestamp":"2026-01-25 15:44:28"}
+{"level":"info","message":"User superadmin joined room: room_c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-25 15:44:28"}
+{"level":"info","message":"SuperAdmin superadmin joined monitoring room","service":"panopticon-chat","timestamp":"2026-01-25 15:44:28"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-25 15:48:11"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-25 15:48:11"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-25 15:48:11"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 15:48:11"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-25 15:48:12"}
+{"level":"info","message":"User connected: Rafi (89ab5f38-efb8-4508-a3c0-39a1627835ea)","role":"user","service":"panopticon-chat","socketId":"K9aij-3rfK3N6WgTAAAD","timestamp":"2026-01-25 15:48:12"}
+{"level":"info","message":"User Rafi joined room: room_89ab5f38-efb8-4508-a3c0-39a1627835ea","service":"panopticon-chat","timestamp":"2026-01-25 15:48:12"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 15:48:12"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 15:48:12"}
+{"level":"info","message":"User connected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","role":"superadmin","service":"panopticon-chat","socketId":"ESBamBq2bU09A08jAAAF","timestamp":"2026-01-25 15:48:12"}
+{"level":"info","message":"User superadmin joined room: room_c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-25 15:48:12"}
+{"level":"info","message":"SuperAdmin superadmin joined monitoring room","service":"panopticon-chat","timestamp":"2026-01-25 15:48:12"}
+{"level":"info","message":"User connected: ELA (91d7bea3-a7b6-45e1-83da-1d57b4830463)","role":"user","service":"panopticon-chat","socketId":"FpoN4Z2agreAOCm9AAAE","timestamp":"2026-01-25 15:48:12"}
+{"level":"info","message":"User ELA joined room: room_91d7bea3-a7b6-45e1-83da-1d57b4830463","service":"panopticon-chat","timestamp":"2026-01-25 15:48:12"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-25 15:48:18"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-25 15:48:18"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-25 15:48:18"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 15:48:18"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-25 15:48:18"}
+{"level":"info","message":"User connected: ELA (91d7bea3-a7b6-45e1-83da-1d57b4830463)","role":"user","service":"panopticon-chat","socketId":"8x12ANZ4l0IvyWSSAAAD","timestamp":"2026-01-25 15:48:18"}
+{"level":"info","message":"User ELA joined room: room_91d7bea3-a7b6-45e1-83da-1d57b4830463","service":"panopticon-chat","timestamp":"2026-01-25 15:48:18"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 15:48:18"}
+{"level":"info","message":"User connected: Rafi (89ab5f38-efb8-4508-a3c0-39a1627835ea)","role":"user","service":"panopticon-chat","socketId":"tlfafPSKWr2XSO7GAAAE","timestamp":"2026-01-25 15:48:18"}
+{"level":"info","message":"User Rafi joined room: room_89ab5f38-efb8-4508-a3c0-39a1627835ea","service":"panopticon-chat","timestamp":"2026-01-25 15:48:18"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 15:48:18"}
+{"level":"info","message":"User connected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","role":"superadmin","service":"panopticon-chat","socketId":"yjoTM91vjZRbbHbfAAAF","timestamp":"2026-01-25 15:48:18"}
+{"level":"info","message":"User superadmin joined room: room_c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-25 15:48:18"}
+{"level":"info","message":"SuperAdmin superadmin joined monitoring room","service":"panopticon-chat","timestamp":"2026-01-25 15:48:18"}
+{"level":"info","message":"User disconnected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","service":"panopticon-chat","timestamp":"2026-01-25 15:48:24"}
+{"level":"info","message":"User connected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","role":"superadmin","service":"panopticon-chat","socketId":"th67tspg0Ip862OiAAAH","timestamp":"2026-01-25 15:48:24"}
+{"level":"info","message":"User superadmin joined room: room_c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-25 15:48:24"}
+{"level":"info","message":"SuperAdmin superadmin joined monitoring room","service":"panopticon-chat","timestamp":"2026-01-25 15:48:24"}
+{"level":"info","message":"User connected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","role":"superadmin","service":"panopticon-chat","socketId":"xgIZTLHrHFHFpgy0AAAJ","timestamp":"2026-01-25 15:48:45"}
+{"level":"info","message":"User superadmin joined room: room_c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-25 15:48:45"}
+{"level":"info","message":"SuperAdmin superadmin joined monitoring room","service":"panopticon-chat","timestamp":"2026-01-25 15:48:45"}
+{"level":"info","message":"User disconnected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","service":"panopticon-chat","timestamp":"2026-01-25 15:48:47"}
+{"level":"info","message":"User disconnected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","service":"panopticon-chat","timestamp":"2026-01-25 15:48:52"}
+{"level":"info","message":"User connected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","role":"superadmin","service":"panopticon-chat","socketId":"9xM50QbZInyOYhP9AAAL","timestamp":"2026-01-25 15:48:52"}
+{"level":"info","message":"User superadmin joined room: room_c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-25 15:48:52"}
+{"level":"info","message":"SuperAdmin superadmin joined monitoring room","service":"panopticon-chat","timestamp":"2026-01-25 15:48:52"}
+{"level":"info","message":"Message sent: Rafi -> Receiver 91d7bea3-a7b6-45e1-83da-1d57b4830463","service":"panopticon-chat","timestamp":"2026-01-25 15:49:00"}
+{"level":"info","message":"Message sent: ELA -> Receiver 89ab5f38-efb8-4508-a3c0-39a1627835ea","service":"panopticon-chat","timestamp":"2026-01-25 15:49:16"}
+{"ip":"::1","level":"info","message":"GET /api/admin/users","service":"panopticon-chat","timestamp":"2026-01-25 15:49:27","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"SuperAdmin superadmin accessed route: GET /users","service":"panopticon-chat","timestamp":"2026-01-25 15:49:27"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 15:49:27"}
+{"ip":"::1","level":"info","message":"GET /api/admin/users","service":"panopticon-chat","timestamp":"2026-01-25 15:49:27","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"SuperAdmin superadmin accessed route: GET /users","service":"panopticon-chat","timestamp":"2026-01-25 15:49:27"}
+{"ip":"::1","level":"info","message":"GET /api/admin/messages/all","service":"panopticon-chat","timestamp":"2026-01-25 15:49:28","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"SuperAdmin superadmin accessed route: GET /messages/all","service":"panopticon-chat","timestamp":"2026-01-25 15:49:28"}
+{"ip":"::1","level":"info","message":"GET /api/admin/messages/all","service":"panopticon-chat","timestamp":"2026-01-25 15:49:28","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"SuperAdmin superadmin accessed route: GET /messages/all","service":"panopticon-chat","timestamp":"2026-01-25 15:49:28"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-25 15:49:54"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-25 15:49:54"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-25 15:49:54"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 15:49:54"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-25 15:49:54"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 15:49:55"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-25 15:49:55"}
+{"level":"info","message":"User connected: ELA (91d7bea3-a7b6-45e1-83da-1d57b4830463)","role":"user","service":"panopticon-chat","socketId":"JmLaMYUc6qsnC3pcAAAB","timestamp":"2026-01-25 15:49:55"}
+{"level":"info","message":"User ELA joined room: room_91d7bea3-a7b6-45e1-83da-1d57b4830463","service":"panopticon-chat","timestamp":"2026-01-25 15:49:55"}
+{"level":"info","message":"User connected: Rafi (89ab5f38-efb8-4508-a3c0-39a1627835ea)","role":"user","service":"panopticon-chat","socketId":"N_XIZx6aSkw4X2FYAAAD","timestamp":"2026-01-25 15:49:55"}
+{"level":"info","message":"User Rafi joined room: room_89ab5f38-efb8-4508-a3c0-39a1627835ea","service":"panopticon-chat","timestamp":"2026-01-25 15:49:55"}
+{"level":"info","message":"User connected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","role":"superadmin","service":"panopticon-chat","socketId":"NxFy_6ZFXLZ6pvIeAAAF","timestamp":"2026-01-25 15:49:55"}
+{"level":"info","message":"User superadmin joined room: room_c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-25 15:49:55"}
+{"level":"info","message":"SuperAdmin superadmin joined monitoring room","service":"panopticon-chat","timestamp":"2026-01-25 15:49:55"}
+{"level":"info","message":"User disconnected: Rafi (89ab5f38-efb8-4508-a3c0-39a1627835ea)","service":"panopticon-chat","timestamp":"2026-01-25 15:49:57"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-27 15:26:50"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-27 15:26:50"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-27 15:26:50"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-27 15:26:50"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-27 15:26:50"}
+{"level":"error","message":"Socket authentication error: Token has expired","service":"panopticon-chat","stack":"Error: Token has expired\n    at Object.verifyToken (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\utils\\jwt.js:32:13)\n    at Array.<anonymous> (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\server.js:77:25)\n    at run (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\node_modules\\socket.io\\dist\\namespace.js:133:19)\n    at Namespace.run (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\node_modules\\socket.io\\dist\\namespace.js:144:9)\n    at Namespace._add (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\node_modules\\socket.io\\dist\\namespace.js:221:14)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","timestamp":"2026-01-27 15:27:16"}
+{"level":"error","message":"Socket authentication error: Token has expired","service":"panopticon-chat","stack":"Error: Token has expired\n    at Object.verifyToken (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\utils\\jwt.js:32:13)\n    at Array.<anonymous> (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\server.js:77:25)\n    at run (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\node_modules\\socket.io\\dist\\namespace.js:133:19)\n    at Namespace.run (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\node_modules\\socket.io\\dist\\namespace.js:144:9)\n    at Namespace._add (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\node_modules\\socket.io\\dist\\namespace.js:221:14)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","timestamp":"2026-01-27 15:27:26"}
+{"ip":"::1","level":"info","message":"GET /api/admin/users","service":"panopticon-chat","timestamp":"2026-01-27 15:27:29","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/admin/users","service":"panopticon-chat","timestamp":"2026-01-27 15:27:29","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"POST /api/auth/login","service":"panopticon-chat","timestamp":"2026-01-27 15:27:31","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-27 15:27:31"}
+{"level":"info","message":"User logged in: superadmin (superadmin)","service":"panopticon-chat","timestamp":"2026-01-27 15:27:32"}
+{"level":"info","message":"User connected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","role":"superadmin","service":"panopticon-chat","socketId":"mA5t_0AmZgtrBbOoAAAF","timestamp":"2026-01-27 15:27:32"}
+{"level":"info","message":"User superadmin joined room: room_c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-27 15:27:32"}
+{"level":"info","message":"SuperAdmin superadmin joined monitoring room","service":"panopticon-chat","timestamp":"2026-01-27 15:27:32"}
+{"ip":"::1","level":"info","message":"GET /api/admin/users","service":"panopticon-chat","timestamp":"2026-01-27 15:27:33","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"SuperAdmin superadmin accessed route: GET /users","service":"panopticon-chat","timestamp":"2026-01-27 15:27:33"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-27 15:27:34"}
+{"ip":"::1","level":"info","message":"GET /api/admin/users","service":"panopticon-chat","timestamp":"2026-01-27 15:27:34","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"SuperAdmin superadmin accessed route: GET /users","service":"panopticon-chat","timestamp":"2026-01-27 15:27:34"}
+{"ip":"::1","level":"info","message":"POST /api/admin/users/8a87e2d8-a37f-46c0-bc71-f8d2d3afa80c/shadow-ban","service":"panopticon-chat","timestamp":"2026-01-27 15:27:52","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"User 8a87e2d8-a37f-46c0-bc71-f8d2d3afa80c unbanned by superadmin","service":"panopticon-chat","timestamp":"2026-01-27 15:27:52"}
+{"ip":"::1","level":"info","message":"GET /api/admin/users","service":"panopticon-chat","timestamp":"2026-01-27 15:27:52","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"SuperAdmin superadmin accessed route: GET /users","service":"panopticon-chat","timestamp":"2026-01-27 15:27:52"}
+{"ip":"::1","level":"info","message":"GET /api/admin/users","service":"panopticon-chat","timestamp":"2026-01-27 15:27:55","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"SuperAdmin superadmin accessed route: GET /users","service":"panopticon-chat","timestamp":"2026-01-27 15:27:55"}
+{"ip":"::1","level":"info","message":"GET /api/admin/messages/all","service":"panopticon-chat","timestamp":"2026-01-27 15:27:56","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"SuperAdmin superadmin accessed route: GET /messages/all","service":"panopticon-chat","timestamp":"2026-01-27 15:27:56"}
+{"ip":"::1","level":"info","message":"GET /api/admin/messages/all","service":"panopticon-chat","timestamp":"2026-01-27 15:27:56","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"SuperAdmin superadmin accessed route: GET /messages/all","service":"panopticon-chat","timestamp":"2026-01-27 15:27:56"}
+{"ip":"::1","level":"info","message":"GET /api/admin/logs","service":"panopticon-chat","timestamp":"2026-01-27 15:27:57","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"SuperAdmin superadmin accessed route: GET /logs","service":"panopticon-chat","timestamp":"2026-01-27 15:27:57"}
+{"ip":"::1","level":"info","message":"GET /api/admin/logs","service":"panopticon-chat","timestamp":"2026-01-27 15:27:57","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"SuperAdmin superadmin accessed route: GET /logs","service":"panopticon-chat","timestamp":"2026-01-27 15:27:57"}
+{"ip":"::1","level":"info","message":"GET /api/admin/users","service":"panopticon-chat","timestamp":"2026-01-27 15:28:02","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"SuperAdmin superadmin accessed route: GET /users","service":"panopticon-chat","timestamp":"2026-01-27 15:28:02"}
+{"ip":"::1","level":"info","message":"GET /api/admin/users","service":"panopticon-chat","timestamp":"2026-01-27 15:28:02","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"SuperAdmin superadmin accessed route: GET /users","service":"panopticon-chat","timestamp":"2026-01-27 15:28:02"}
+{"level":"info","message":"User disconnected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","service":"panopticon-chat","timestamp":"2026-01-27 15:28:10"}
+{"level":"info","message":"User connected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","role":"superadmin","service":"panopticon-chat","socketId":"U1IQc14JUaSMalKkAAAH","timestamp":"2026-01-27 15:28:10"}
+{"level":"info","message":"User superadmin joined room: room_c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-27 15:28:10"}
+{"level":"info","message":"SuperAdmin superadmin joined monitoring room","service":"panopticon-chat","timestamp":"2026-01-27 15:28:10"}
+{"ip":"::1","level":"info","message":"GET /api/users","service":"panopticon-chat","timestamp":"2026-01-27 15:28:26","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"error","message":"Socket authentication error: Token has expired","service":"panopticon-chat","stack":"Error: Token has expired\n    at Object.verifyToken (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\utils\\jwt.js:32:13)\n    at Array.<anonymous> (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\server.js:77:25)\n    at run (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\node_modules\\socket.io\\dist\\namespace.js:133:19)\n    at Namespace.run (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\node_modules\\socket.io\\dist\\namespace.js:144:9)\n    at Namespace._add (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\node_modules\\socket.io\\dist\\namespace.js:221:14)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","timestamp":"2026-01-27 15:28:26"}
+{"ip":"::1","level":"info","message":"GET /api/users","service":"panopticon-chat","timestamp":"2026-01-27 15:28:26","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"User disconnected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","service":"panopticon-chat","timestamp":"2026-01-27 15:29:21"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-27 15:29:21"}
+{"level":"info","message":"User connected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","role":"superadmin","service":"panopticon-chat","socketId":"LtAVGCwXVjOSq_27AAAL","timestamp":"2026-01-27 15:29:21"}
+{"level":"info","message":"User superadmin joined room: room_c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-27 15:29:21"}
+{"level":"info","message":"SuperAdmin superadmin joined monitoring room","service":"panopticon-chat","timestamp":"2026-01-27 15:29:21"}
+{"ip":"::1","level":"info","message":"GET /api/users","service":"panopticon-chat","timestamp":"2026-01-27 15:29:21","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-27 15:29:21"}
+{"ip":"::1","level":"info","message":"GET /api/users","service":"panopticon-chat","timestamp":"2026-01-27 15:29:21","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/8a87e2d8-a37f-46c0-bc71-f8d2d3afa80c","service":"panopticon-chat","timestamp":"2026-01-27 15:29:26","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/58cbf728-5727-4d6f-8741-d26fbafb5342","service":"panopticon-chat","timestamp":"2026-01-27 15:29:27","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/91d7bea3-a7b6-45e1-83da-1d57b4830463","service":"panopticon-chat","timestamp":"2026-01-27 15:29:28","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/89ab5f38-efb8-4508-a3c0-39a1627835ea","service":"panopticon-chat","timestamp":"2026-01-27 15:29:29","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/91d7bea3-a7b6-45e1-83da-1d57b4830463","service":"panopticon-chat","timestamp":"2026-01-27 15:29:29","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/89ab5f38-efb8-4508-a3c0-39a1627835ea","service":"panopticon-chat","timestamp":"2026-01-27 15:29:32","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/58cbf728-5727-4d6f-8741-d26fbafb5342","service":"panopticon-chat","timestamp":"2026-01-27 15:29:33","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/8a87e2d8-a37f-46c0-bc71-f8d2d3afa80c","service":"panopticon-chat","timestamp":"2026-01-27 15:29:34","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"User connected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","role":"superadmin","service":"panopticon-chat","socketId":"n5BBZd2oG3K2orZXAAAN","timestamp":"2026-01-27 15:29:46"}
+{"level":"info","message":"User superadmin joined room: room_c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-27 15:29:46"}
+{"level":"info","message":"SuperAdmin superadmin joined monitoring room","service":"panopticon-chat","timestamp":"2026-01-27 15:29:46"}
+{"level":"info","message":"User disconnected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","service":"panopticon-chat","timestamp":"2026-01-27 15:29:49"}
+{"ip":"::1","level":"info","message":"GET /api/users","service":"panopticon-chat","timestamp":"2026-01-27 15:29:49","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"User connected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","role":"superadmin","service":"panopticon-chat","socketId":"lmQIT31Z3c-HQpQvAAAP","timestamp":"2026-01-27 15:29:49"}
+{"level":"info","message":"User superadmin joined room: room_c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-27 15:29:49"}
+{"level":"info","message":"SuperAdmin superadmin joined monitoring room","service":"panopticon-chat","timestamp":"2026-01-27 15:29:49"}
+{"ip":"::1","level":"info","message":"GET /api/users","service":"panopticon-chat","timestamp":"2026-01-27 15:29:49","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"POST /api/auth/login","service":"panopticon-chat","timestamp":"2026-01-27 15:30:09","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"POST /api/auth/login","service":"panopticon-chat","timestamp":"2026-01-27 15:30:21","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"User logged in: ELA (user)","service":"panopticon-chat","timestamp":"2026-01-27 15:30:21"}
+{"ip":"::1","level":"info","message":"GET /api/users","service":"panopticon-chat","timestamp":"2026-01-27 15:30:21","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"User connected: ELA (91d7bea3-a7b6-45e1-83da-1d57b4830463)","role":"user","service":"panopticon-chat","socketId":"ROgfoiV75X4mkjTfAAAR","timestamp":"2026-01-27 15:30:21"}
+{"level":"info","message":"User ELA joined room: room_91d7bea3-a7b6-45e1-83da-1d57b4830463","service":"panopticon-chat","timestamp":"2026-01-27 15:30:21"}
+{"ip":"::1","level":"info","message":"GET /api/users","service":"panopticon-chat","timestamp":"2026-01-27 15:30:21","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-27 15:30:22"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-27 15:30:25","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/8a87e2d8-a37f-46c0-bc71-f8d2d3afa80c","service":"panopticon-chat","timestamp":"2026-01-27 15:30:26","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-27 15:30:27","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"Message sent: ELA -> Receiver c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-27 15:30:33"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/91d7bea3-a7b6-45e1-83da-1d57b4830463","service":"panopticon-chat","timestamp":"2026-01-27 15:30:44","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"Message sent: superadmin -> Receiver 91d7bea3-a7b6-45e1-83da-1d57b4830463","service":"panopticon-chat","timestamp":"2026-01-27 15:30:48"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-27 15:47:02"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-27 15:47:02"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-27 15:47:02"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-27 15:47:02"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-27 15:47:02"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-27 15:47:12"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-27 15:47:12"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-27 15:47:12"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-27 15:47:12"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-27 15:47:12"}
+{"ip":"::1","level":"info","message":"GET /api/users","service":"panopticon-chat","timestamp":"2026-01-27 15:47:17","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"User connected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","role":"superadmin","service":"panopticon-chat","socketId":"L4zj2z-o_AbIyPsRAAAB","timestamp":"2026-01-27 15:47:17"}
+{"level":"info","message":"User superadmin joined room: room_c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-27 15:47:17"}
+{"level":"info","message":"SuperAdmin superadmin joined monitoring room","service":"panopticon-chat","timestamp":"2026-01-27 15:47:17"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-27 15:47:17"}
+{"ip":"::1","level":"info","message":"GET /api/users","service":"panopticon-chat","timestamp":"2026-01-27 15:47:17","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/8a87e2d8-a37f-46c0-bc71-f8d2d3afa80c","service":"panopticon-chat","timestamp":"2026-01-27 15:47:18","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/91d7bea3-a7b6-45e1-83da-1d57b4830463","service":"panopticon-chat","timestamp":"2026-01-27 15:47:27","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"POST /api/uploads","service":"panopticon-chat","timestamp":"2026-01-27 15:47:33","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"Message sent: superadmin -> Receiver 91d7bea3-a7b6-45e1-83da-1d57b4830463","service":"panopticon-chat","timestamp":"2026-01-27 15:47:44"}
+{"ip":"::1","level":"info","message":"POST /api/uploads","service":"panopticon-chat","timestamp":"2026-01-27 15:47:45","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-27 15:54:44"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-27 15:54:44"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-27 15:54:44"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-27 15:54:44"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-27 15:54:44"}
+{"level":"info","message":"User connected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","role":"superadmin","service":"panopticon-chat","socketId":"AJTsbXz8G8vsNY6bAAAB","timestamp":"2026-01-27 15:54:44"}
+{"level":"info","message":"User superadmin joined room: room_c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-27 15:54:44"}
+{"level":"info","message":"SuperAdmin superadmin joined monitoring room","service":"panopticon-chat","timestamp":"2026-01-27 15:54:44"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-27 15:55:17"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-27 15:55:17"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-27 15:55:17"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-27 15:55:17"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-27 15:55:17"}
+{"level":"info","message":"User connected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","role":"superadmin","service":"panopticon-chat","socketId":"BLbzbXLJQR3ufjRnAAAB","timestamp":"2026-01-27 15:55:17"}
+{"level":"info","message":"User superadmin joined room: room_c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-27 15:55:17"}
+{"level":"info","message":"SuperAdmin superadmin joined monitoring room","service":"panopticon-chat","timestamp":"2026-01-27 15:55:17"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-27 15:55:29"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-27 15:55:29"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-27 15:55:29"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-27 15:55:29"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-27 15:55:29"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-27 15:55:29"}
+{"level":"info","message":"User connected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","role":"superadmin","service":"panopticon-chat","socketId":"biSSBWYHPCHVb2mNAAAB","timestamp":"2026-01-27 15:55:29"}
+{"level":"info","message":"User superadmin joined room: room_c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-27 15:55:29"}
+{"level":"info","message":"SuperAdmin superadmin joined monitoring room","service":"panopticon-chat","timestamp":"2026-01-27 15:55:29"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-27 15:55:48"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-27 15:55:48"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-27 15:55:48"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-27 15:55:48"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-27 15:55:48"}
+{"level":"info","message":"User connected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","role":"superadmin","service":"panopticon-chat","socketId":"GbZtijbmV6gKaJhQAAAB","timestamp":"2026-01-27 15:55:48"}
+{"level":"info","message":"User superadmin joined room: room_c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-27 15:55:48"}
+{"level":"info","message":"SuperAdmin superadmin joined monitoring room","service":"panopticon-chat","timestamp":"2026-01-27 15:55:48"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-27 15:55:59"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-27 15:55:59"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-27 15:55:59"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-27 15:55:59"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-27 15:55:59"}
+{"level":"info","message":"User connected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","role":"superadmin","service":"panopticon-chat","socketId":"ShHcuzdw6DKRrJoYAAAB","timestamp":"2026-01-27 15:56:00"}
+{"level":"info","message":"User superadmin joined room: room_c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-27 15:56:00"}
+{"level":"info","message":"SuperAdmin superadmin joined monitoring room","service":"panopticon-chat","timestamp":"2026-01-27 15:56:00"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-27 15:56:19"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-27 15:56:19"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-27 15:56:19"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-27 15:56:19"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-27 15:56:19"}
+{"level":"info","message":"User connected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","role":"superadmin","service":"panopticon-chat","socketId":"inKnfQyqweMOvgVBAAAB","timestamp":"2026-01-27 15:56:21"}
+{"level":"info","message":"User superadmin joined room: room_c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-27 15:56:21"}
+{"level":"info","message":"SuperAdmin superadmin joined monitoring room","service":"panopticon-chat","timestamp":"2026-01-27 15:56:21"}
+{"ip":"::1","level":"info","message":"POST /api/uploads","service":"panopticon-chat","timestamp":"2026-01-27 15:56:26","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"code":"42703","file":"parse_target.c","length":135,"level":"error","line":"1073","message":"Upload error: column \"has_attachment\" of relation \"messages\" does not exist","name":"error","position":"56","routine":"checkInsertTargets","service":"panopticon-chat","severity":"ERROR","stack":"error: column \"has_attachment\" of relation \"messages\" does not exist\n    at C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\node_modules\\pg-pool\\index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\routes\\upload.routes.js:23:27","timestamp":"2026-01-27 15:56:26"}
+{"level":"info","message":"User disconnected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","service":"panopticon-chat","timestamp":"2026-01-27 15:56:29"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-27 15:56:29"}
+{"ip":"::1","level":"info","message":"GET /api/users","service":"panopticon-chat","timestamp":"2026-01-27 15:56:29","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/users","service":"panopticon-chat","timestamp":"2026-01-27 15:56:29","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"User connected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","role":"superadmin","service":"panopticon-chat","socketId":"S12xN-RVx9xudxxUAAAD","timestamp":"2026-01-27 15:56:29"}
+{"level":"info","message":"User superadmin joined room: room_c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-27 15:56:29"}
+{"level":"info","message":"SuperAdmin superadmin joined monitoring room","service":"panopticon-chat","timestamp":"2026-01-27 15:56:29"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/89ab5f38-efb8-4508-a3c0-39a1627835ea","service":"panopticon-chat","timestamp":"2026-01-27 15:56:31","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"POST /api/uploads","service":"panopticon-chat","timestamp":"2026-01-27 15:56:39","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"code":"42703","file":"parse_target.c","length":135,"level":"error","line":"1073","message":"Upload error: column \"has_attachment\" of relation \"messages\" does not exist","name":"error","position":"56","routine":"checkInsertTargets","service":"panopticon-chat","severity":"ERROR","stack":"error: column \"has_attachment\" of relation \"messages\" does not exist\n    at C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\node_modules\\pg-pool\\index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\routes\\upload.routes.js:23:27","timestamp":"2026-01-27 15:56:39"}
+{"level":"info","message":"User disconnected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","service":"panopticon-chat","timestamp":"2026-01-27 15:56:48"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-27 15:56:48"}
+{"ip":"::1","level":"info","message":"GET /api/users","service":"panopticon-chat","timestamp":"2026-01-27 15:56:49","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/users","service":"panopticon-chat","timestamp":"2026-01-27 15:56:49","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"User connected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","role":"superadmin","service":"panopticon-chat","socketId":"mGWt-UGmqqLgmxTZAAAF","timestamp":"2026-01-27 15:56:49"}
+{"level":"info","message":"User superadmin joined room: room_c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-27 15:56:49"}
+{"level":"info","message":"SuperAdmin superadmin joined monitoring room","service":"panopticon-chat","timestamp":"2026-01-27 15:56:49"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/91d7bea3-a7b6-45e1-83da-1d57b4830463","service":"panopticon-chat","timestamp":"2026-01-27 15:56:51","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"POST /api/uploads","service":"panopticon-chat","timestamp":"2026-01-27 15:57:02","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"code":"42703","file":"parse_target.c","length":135,"level":"error","line":"1073","message":"Upload error: column \"has_attachment\" of relation \"messages\" does not exist","name":"error","position":"56","routine":"checkInsertTargets","service":"panopticon-chat","severity":"ERROR","stack":"error: column \"has_attachment\" of relation \"messages\" does not exist\n    at C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\node_modules\\pg-pool\\index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\routes\\upload.routes.js:23:27","timestamp":"2026-01-27 15:57:02"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-27 16:01:16"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-27 16:01:16"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-27 16:01:16"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-27 16:01:16"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-27 16:01:16"}
+{"level":"info","message":"User connected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","role":"superadmin","service":"panopticon-chat","socketId":"zyDENLC9GtGvUoqMAAAB","timestamp":"2026-01-27 16:01:17"}
+{"level":"info","message":"User superadmin joined room: room_c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-27 16:01:17"}
+{"level":"info","message":"SuperAdmin superadmin joined monitoring room","service":"panopticon-chat","timestamp":"2026-01-27 16:01:17"}
+{"level":"info","message":"User disconnected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","service":"panopticon-chat","timestamp":"2026-01-27 16:01:20"}
+{"level":"info","message":"User connected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","role":"superadmin","service":"panopticon-chat","socketId":"Bg5keyJCEV-4V_5nAAAD","timestamp":"2026-01-27 16:01:21"}
+{"level":"info","message":"User superadmin joined room: room_c5c29dfa-3269-44f7-b4f4-7170a496f2cf","service":"panopticon-chat","timestamp":"2026-01-27 16:01:21"}
+{"level":"info","message":"SuperAdmin superadmin joined monitoring room","service":"panopticon-chat","timestamp":"2026-01-27 16:01:21"}
+{"ip":"::1","level":"info","message":"GET /api/users","service":"panopticon-chat","timestamp":"2026-01-27 16:01:21","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-27 16:01:21"}
+{"ip":"::1","level":"info","message":"GET /api/users","service":"panopticon-chat","timestamp":"2026-01-27 16:01:21","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/89ab5f38-efb8-4508-a3c0-39a1627835ea","service":"panopticon-chat","timestamp":"2026-01-27 16:01:22","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /api/messages/conversation/91d7bea3-a7b6-45e1-83da-1d57b4830463","service":"panopticon-chat","timestamp":"2026-01-27 16:01:23","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"POST /api/uploads","service":"panopticon-chat","timestamp":"2026-01-27 16:02:37","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-27 16:02:37"}
+{"ip":"::1","level":"error","message":"Invalid file type","method":"POST","path":"/api/uploads","service":"panopticon-chat","stack":"Error: Invalid file type\n    at fileFilter (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\middleware\\upload.js:30:8)\n    at wrappedFileFilter (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\node_modules\\multer\\index.js:44:7)\n    at Multipart.<anonymous> (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\node_modules\\multer\\lib\\make-middleware.js:132:7)\n    at Multipart.emit (node:events:508:28)\n    at HeaderParser.cb (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\node_modules\\busboy\\lib\\types\\multipart.js:358:14)\n    at HeaderParser.push (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\node_modules\\busboy\\lib\\types\\multipart.js:162:20)\n    at SBMH.ssCb [as _cb] (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\node_modules\\busboy\\lib\\types\\multipart.js:394:37)\n    at feed (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\node_modules\\streamsearch\\lib\\sbmh.js:219:14)\n    at SBMH.push (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\node_modules\\streamsearch\\lib\\sbmh.js:104:16)\n    at Multipart._write (C:\\Users\\rafi_abrar\\Documents\\APPS\\pgad\\chatapp\\panopticon-chat\\node_modules\\busboy\\lib\\types\\multipart.js:567:19)","timestamp":"2026-01-27 16:02:38","user":"superadmin"}
+{"level":"info","message":"User disconnected: superadmin (c5c29dfa-3269-44f7-b4f4-7170a496f2cf)","service":"panopticon-chat","timestamp":"2026-01-27 16:02:43"}
+{"level":"info","message":"Additional socket handlers initialized","service":"panopticon-chat","timestamp":"2026-01-27 16:02:59"}
+{"level":"info","message":"Panopticon Server running on port 5000","service":"panopticon-chat","timestamp":"2026-01-27 16:02:59"}
+{"level":"info","message":"Environment: development","service":"panopticon-chat","timestamp":"2026-01-27 16:02:59"}
+{"level":"info","message":"New database connection established","service":"panopticon-chat","timestamp":"2026-01-27 16:03:00"}
+{"level":"info","message":"Database connected successfully","service":"panopticon-chat","timestamp":"2026-01-27 16:03:00"}
