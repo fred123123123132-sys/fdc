@@ -3,9 +3,9 @@ const { Pool } = require("pg");
 const logger = require("../utils/logger");
 
 const pool = new Pool({
-  host: process.env.DB_HOST || "localhost",
+  host: process.env.DB_HOST || "db.ffootkswnfxftdokfnhl.supabase.co",
   port: process.env.DB_PORT || 5432,
-  database: process.env.DB_NAME || "panopticon_chat",
+  database: process.env.DB_NAME || "postgres",
   user: process.env.DB_USER || "postgres",
   password: process.env.DB_PASSWORD,
   max: 20, // Maximum number of clients in the pool
@@ -28,3 +28,4 @@ pool.on("error", (err) => {
 });
 
 module.exports = pool;
+
