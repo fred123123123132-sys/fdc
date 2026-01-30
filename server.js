@@ -1,43 +1,118 @@
-// Add this at the VERY TOP of server.js (before anything else)
+// server.js - Complete debug version
 console.log("🚀 Server starting...");
 console.log("Node version:", process.version);
 console.log("Current directory:", process.cwd());
-
-// Check environment variables
 console.log("Checking environment variables...");
 console.log("DATABASE_URL:", process.env.DATABASE_URL ? "✅ SET" : "❌ NOT SET");
 console.log("CLIENT_URL:", process.env.CLIENT_URL || "not set (using default)");
 console.log("PORT:", process.env.PORT || "not set (using 5000)");
 console.log("NODE_ENV:", process.env.NODE_ENV || "not set");
 
-require("dotenv").config();
+console.log("Step 1: Loading dotenv...");
+try {
+  require("dotenv").config();
+  console.log("✅ Step 1 complete: dotenv loaded");
+} catch (error) {
+  console.error("❌ dotenv failed:", error.message);
+  process.exit(1);
+}
+
+console.log("Step 2: Checking DATABASE_URL after dotenv...");
+console.log("DATABASE_URL:", process.env.DATABASE_URL ? "✅ SET" : "❌ NOT SET");
 
 if (!process.env.DATABASE_URL) {
   console.error("❌ DATABASE_URL is not set");
   process.exit(1);
 }
 
-const express = require("express");
-const http = require("http");
-const { Server } = require("socket.io");
-const cors = require("cors");
-const helmet = require("helmet");
-const rateLimit = require("express-rate-limit");
+console.log("Step 3: Loading npm packages...");
+let express, http, Server, cors, helmet, rateLimit;
+try {
+  express = require("express");
+  console.log("  ✅ express");
+  http = require("http");
+  console.log("  ✅ http");
+  ({ Server } = require("socket.io"));
+  console.log("  ✅ socket.io");
+  cors = require("cors");
+  console.log("  ✅ cors");
+  helmet = require("helmet");
+  console.log("  ✅ helmet");
+  rateLimit = require("express-rate-limit");
+  console.log("  ✅ express-rate-limit");
+} catch (error) {
+  console.error("❌ NPM package failed:", error.message);
+  console.error(error.stack);
+  process.exit(1);
+}
 
-const pool = require("./config/database");
-const logger = require("./utils/logger");
-const errorHandler = require("./middleware/errorHandler");
+console.log("Step 4: Loading database config...");
+let pool;
+try {
+  pool = require("./config/database");
+  console.log("  ✅ database loaded");
+} catch (error) {
+  console.error("❌ Database config failed:", error.message);
+  console.error(error.stack);
+  process.exit(1);
+}
 
-const authRoutes = require("./routes/auth.routes");
-const userRoutes = require("./routes/user.routes");
-const messageRoutes = require("./routes/message.routes");
-const adminRoutes = require("./routes/admin.routes");
+console.log("Step 5: Loading logger...");
+let logger;
+try {
+  logger = require("./utils/logger");
+  console.log("  ✅ logger loaded");
+} catch (error) {
+  console.error("❌ Logger failed:", error.message);
+  console.error(error.stack);
+  process.exit(1);
+}
 
-const uploadRoutes = require("./routes/upload.routes");
+console.log("Step 6: Loading errorHandler...");
+let errorHandler;
+try {
+  errorHandler = require("./middleware/errorHandler");
+  console.log("  ✅ errorHandler loaded");
+} catch (error) {
+  console.error("❌ errorHandler failed:", error.message);
+  console.error(error.stack);
+  process.exit(1);
+}
+
+console.log("Step 7: Loading routes...");
+let authRoutes, userRoutes, messageRoutes, adminRoutes, uploadRoutes;
+try {
+  authRoutes = require("./routes/auth.routes");
+  console.log("  ✅ auth.routes");
+  userRoutes = require("./routes/user.routes");
+  console.log("  ✅ user.routes");
+  messageRoutes = require("./routes/message.routes");
+  console.log("  ✅ message.routes");
+  adminRoutes = require("./routes/admin.routes");
+  console.log("  ✅ admin.routes");
+  uploadRoutes = require("./routes/upload.routes");
+  console.log("  ✅ upload.routes");
+} catch (error) {
+  console.error("❌ Route failed:", error.message);
+  console.error(error.stack);
+  process.exit(1);
+}
+
+console.log("Step 8: Loading socket handler...");
 const path = require("path");
+let setupSocketHandlers;
+try {
+  setupSocketHandlers = require("./socket/socketHandler");
+  console.log("  ✅ socketHandler");
+} catch (error) {
+  console.error("❌ socketHandler failed:", error.message);
+  console.error(error.stack);
+  process.exit(1);
+}
 
-const setupSocketHandlers = require("./socket/socketHandler");
+console.log("✅ All modules loaded! Starting server...");
 
+// ============ REST OF YOUR SERVER CODE GOES HERE ============
 const app = express();
 const server = http.createServer(app);
 
@@ -746,4 +821,5 @@ process.on("unhandledRejection", (reason, promise) => {
 });
 
 module.exports = { app, io, server };
+
 
