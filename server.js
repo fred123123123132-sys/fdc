@@ -29,82 +29,173 @@ const setupSocketHandlers = require("./socket/socketHandler");
 const app = express();
 const server = http.createServer(app);
 
-const io = new Server(server, {
-  cors: {
-    origin: process.env.CLIENT_URL || "http://localhost:3000",
-    methods: ["GET", "POST"],
-    credentials: true,
-  },
-});
+let io;
+try {
+  io = new Server(server, {
+    cors: {
+      origin: process.env.CLIENT_URL || "http://localhost:3000",
+      methods: ["GET", "POST"],
+      credentials: true,
+    },
+  });
+  logger.info("Socket.io server initialized successfully");
+} catch (error) {
+  logger.error("Failed to initialize Socket.io server:", error);
+  process.exit(1);
+}
 
-app.use(helmet());
-app.use(
-  cors({
-    origin: process.env.CLIENT_URL || "http://localhost:3000",
-    credentials: true,
-  }),
-);
+try {
+  app.use(helmet());
+  logger.info("Helmet middleware applied");
+} catch (error) {
+  logger.error("Failed to apply Helmet middleware:", error);
+}
 
-const limiter = rateLimit({
-  windowMs: 15 * 60 * 1000,
-  max: 100,
-  message: "Too many requests from this IP, please try again later.",
-});
-app.use("/api/", limiter);
+try {
+  app.use(
+    cors({
+      origin: process.env.CLIENT_URL || "http://localhost:3000",
+      credentials: true,
+    }),
+  );
+  logger.info("CORS middleware applied");
+} catch (error) {
+  logger.error("Failed to apply CORS middleware:", error);
+}
+
+try {
+  const limiter = rateLimit({
+    windowMs: 15 * 60 * 1000,
+    max: 100,
+    message: "Too many requests from this IP, please try again later.",
+  });
+  app.use("/api/", limiter);
+  logger.info("Rate limiter middleware applied");
+} catch (error) {
+  logger.error("Failed to apply rate limiter middleware:", error);
+}
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use("/uploads", express.static(path.join(__dirname, "uploads")));
+
+try {
+  app.use("/uploads", express.static(path.join(__dirname, "uploads")));
+  logger.info("Static uploads directory configured");
+} catch (error) {
+  logger.error("Failed to configure static uploads directory:", error);
+}
+
 app.use((req, res, next) => {
-  logger.info(`${req.method} ${req.path}`, {
-    ip: req.ip,
-    userAgent: req.get("user-agent"),
-  });
+  try {
+    logger.info(`${req.method} ${req.path}`, {
+      ip: req.ip,
+      userAgent: req.get("user-agent"),
+    });
+  } catch (error) {
+    logger.error("Failed to log request:", error);
+  }
   next();
 });
 
 app.get("/health", (req, res) => {
-  res.json({ status: "operational", timestamp: new Date().toISOString() });
+  try {
+    res.json({ status: "operational", timestamp: new Date().toISOString() });
+  } catch (error) {
+    logger.error("Health check failed:", error);
+    res.status(500).json({ status: "error", error: error.message });
+  }
 });
 
-app.use("/api/auth", authRoutes);
-app.use("/api/users", userRoutes);
-app.use("/api/messages", messageRoutes);
-app.use("/api/admin", adminRoutes);
-app.use("/api/uploads", uploadRoutes);
+try {
+  app.use("/api/auth", authRoutes);
+  app.use("/api/users", userRoutes);
+  app.use("/api/messages", messageRoutes);
+  app.use("/api/admin", adminRoutes);
+  app.use("/api/uploads", uploadRoutes);
+  logger.info("All routes registered successfully");
+} catch (error) {
+  logger.error("Failed to register routes:", error);
+}
 
 app.use(errorHandler);
+
+// Global error handler for uncaught route errors
+app.use((err, req, res, next) => {
+  logger.error("Unhandled route error:", {
+    error: err.message,
+    stack: err.stack,
+    path: req.path,
+    method: req.method,
+  });
+  res.status(500).json({ error: "Internal server error" });
+});
 
 io.use(async (socket, next) => {
   try {
     const token = socket.handshake.auth.token;
 
     if (!token) {
+      logger.warn("Socket connection attempted without token", {
+        address: socket.handshake.address,
+      });
       return next(new Error("Authentication token required"));
     }
 
-    const jwt = require("./utils/jwt");
-    const decoded = jwt.verifyToken(token);
+    let decoded;
+    try {
+      const jwt = require("./utils/jwt");
+      decoded = jwt.verifyToken(token);
+    } catch (jwtError) {
+      logger.error("JWT verification failed:", {
+        error: jwtError.message,
+        address: socket.handshake.address,
+      });
+      return next(new Error("Invalid token"));
+    }
 
-    const result = await pool.query(
-      "SELECT id, username, email, role, is_shadow_banned, is_active FROM users WHERE id = $1",
-      [decoded.userId],
-    );
+    let result;
+    try {
+      result = await pool.query(
+        "SELECT id, username, email, role, is_shadow_banned, is_active FROM users WHERE id = $1",
+        [decoded.userId],
+      );
+    } catch (dbError) {
+      logger.error("Database query failed during socket auth:", {
+        error: dbError.message,
+        userId: decoded.userId,
+      });
+      return next(new Error("Authentication failed - database error"));
+    }
 
     if (result.rows.length === 0) {
+      logger.warn("Socket auth failed - user not found:", {
+        userId: decoded.userId,
+      });
       return next(new Error("User not found"));
     }
 
     const user = result.rows[0];
 
     if (!user.is_active) {
+      logger.warn("Socket auth failed - account deactivated:", {
+        userId: user.id,
+        username: user.username,
+      });
       return next(new Error("Account is deactivated"));
     }
 
     socket.user = user;
+    logger.info("Socket authentication successful:", {
+      userId: user.id,
+      username: user.username,
+    });
     next();
   } catch (error) {
-    logger.error("Socket authentication error:", error);
+    logger.error("Socket authentication error:", {
+      error: error.message,
+      stack: error.stack,
+      address: socket.handshake.address,
+    });
     next(new Error("Authentication failed"));
   }
 });
@@ -112,10 +203,14 @@ io.use(async (socket, next) => {
 io.on("connection", (socket) => {
   const user = socket.user;
 
-  logger.info(`User connected: ${user.username} (${user.id})`, {
-    role: user.role,
-    socketId: socket.id,
-  });
+  try {
+    logger.info(`User connected: ${user.username} (${user.id})`, {
+      role: user.role,
+      socketId: socket.id,
+    });
+  } catch (error) {
+    logger.error("Error logging user connection:", error);
+  }
 
   pool
     .query(
@@ -128,19 +223,40 @@ io.on("connection", (socket) => {
         JSON.stringify({ socketId: socket.id }),
       ],
     )
-    .catch((err) => logger.error("Failed to log connection:", err));
+    .catch((err) =>
+      logger.error("Failed to log connection:", {
+        error: err.message,
+        userId: user.id,
+        socketId: socket.id,
+      }),
+    );
 
-  socket.join(`room_${user.id}`);
-  logger.info(`User ${user.username} joined room: room_${user.id}`);
+  try {
+    socket.join(`room_${user.id}`);
+    logger.info(`User ${user.username} joined room: room_${user.id}`);
+  } catch (error) {
+    logger.error("Failed to join user room:", {
+      error: error.message,
+      userId: user.id,
+      room: `room_${user.id}`,
+    });
+  }
 
   if (user.role === "superadmin") {
-    socket.join("super_admin_monitor");
-    logger.info(`SuperAdmin ${user.username} joined monitoring room`);
+    try {
+      socket.join("super_admin_monitor");
+      logger.info(`SuperAdmin ${user.username} joined monitoring room`);
 
-    socket.emit("monitoring_active", {
-      message: "God Mode Active: Monitoring all communications",
-      timestamp: new Date().toISOString(),
-    });
+      socket.emit("monitoring_active", {
+        message: "God Mode Active: Monitoring all communications",
+        timestamp: new Date().toISOString(),
+      });
+    } catch (error) {
+      logger.error("Failed to setup superadmin monitoring:", {
+        error: error.message,
+        userId: user.id,
+      });
+    }
   }
 
   socket.on("send_message", async (data) => {
@@ -148,15 +264,36 @@ io.on("connection", (socket) => {
       const { receiverId, content } = data;
 
       if (!receiverId || !content || content.trim().length === 0) {
+        logger.warn("Invalid message data received:", {
+          userId: user.id,
+          receiverId,
+          hasContent: !!content,
+        });
         socket.emit("message_error", { error: "Invalid message data" });
         return;
       }
 
-      const senderResult = await pool.query(
-        "SELECT id, username, role, is_shadow_banned FROM users WHERE id = $1",
-        [user.id],
-      );
-      const sender = senderResult.rows[0];
+      let sender;
+      try {
+        const senderResult = await pool.query(
+          "SELECT id, username, role, is_shadow_banned FROM users WHERE id = $1",
+          [user.id],
+        );
+        sender = senderResult.rows[0];
+      } catch (dbError) {
+        logger.error("Failed to fetch sender data:", {
+          error: dbError.message,
+          userId: user.id,
+        });
+        socket.emit("message_error", { error: "Failed to send message" });
+        return;
+      }
+
+      if (!sender) {
+        logger.error("Sender not found in database:", { userId: user.id });
+        socket.emit("message_error", { error: "Sender not found" });
+        return;
+      }
 
       if (sender.is_shadow_banned) {
         logger.warn(
@@ -167,65 +304,118 @@ io.on("connection", (socket) => {
           },
         );
 
-        socket.emit("message_sent", {
-          id: require("crypto").randomUUID(),
-          senderId: sender.id,
-          receiverId,
-          content,
-          createdAt: new Date().toISOString(),
-          status: "delivered",
-        });
-
-        await pool.query(
-          "INSERT INTO logs (user_id, action_type, target_user_id, severity, metadata) VALUES ($1, $2, $3, $4, $5)",
-          [
-            sender.id,
-            "SHADOW_BANNED_MESSAGE_BLOCKED",
+        try {
+          socket.emit("message_sent", {
+            id: require("crypto").randomUUID(),
+            senderId: sender.id,
             receiverId,
-            "WARNING",
-            JSON.stringify({ content: content.substring(0, 100) }),
-          ],
-        );
+            content,
+            createdAt: new Date().toISOString(),
+            status: "delivered",
+          });
+        } catch (emitError) {
+          logger.error("Failed to emit fake message_sent to shadow banned user:", {
+            error: emitError.message,
+            userId: sender.id,
+          });
+        }
 
-        io.to("super_admin_monitor").emit("shadow_banned_message", {
-          id: require("crypto").randomUUID(),
-          sender: { id: sender.id, username: sender.username },
-          receiverId,
-          content,
-          blocked: true,
-          timestamp: new Date().toISOString(),
-        });
+        try {
+          await pool.query(
+            "INSERT INTO logs (user_id, action_type, target_user_id, severity, metadata) VALUES ($1, $2, $3, $4, $5)",
+            [
+              sender.id,
+              "SHADOW_BANNED_MESSAGE_BLOCKED",
+              receiverId,
+              "WARNING",
+              JSON.stringify({ content: content.substring(0, 100) }),
+            ],
+          );
+        } catch (logError) {
+          logger.error("Failed to log shadow banned message:", {
+            error: logError.message,
+            userId: sender.id,
+          });
+        }
+
+        try {
+          io.to("super_admin_monitor").emit("shadow_banned_message", {
+            id: require("crypto").randomUUID(),
+            sender: { id: sender.id, username: sender.username },
+            receiverId,
+            content,
+            blocked: true,
+            timestamp: new Date().toISOString(),
+          });
+        } catch (emitError) {
+          logger.error("Failed to emit shadow_banned_message to admins:", {
+            error: emitError.message,
+            userId: sender.id,
+          });
+        }
 
         return;
       }
 
-      const receiverResult = await pool.query(
-        "SELECT id, username FROM users WHERE id = $1 AND is_active = true",
-        [receiverId],
-      );
+      let receiver;
+      try {
+        const receiverResult = await pool.query(
+          "SELECT id, username FROM users WHERE id = $1 AND is_active = true",
+          [receiverId],
+        );
+        receiver = receiverResult.rows[0];
+      } catch (dbError) {
+        logger.error("Failed to fetch receiver data:", {
+          error: dbError.message,
+          receiverId,
+        });
+        socket.emit("message_error", { error: "Failed to send message" });
+        return;
+      }
 
-      if (receiverResult.rows.length === 0) {
+      if (!receiver) {
+        logger.warn("Receiver not found or inactive:", {
+          receiverId,
+          senderId: sender.id,
+        });
         socket.emit("message_error", { error: "Receiver not found" });
         return;
       }
 
-      const messageResult = await pool.query(
-        "INSERT INTO messages (sender_id, receiver_id, content) VALUES ($1, $2, $3) RETURNING *",
-        [sender.id, receiverId, content],
-      );
-
-      const message = messageResult.rows[0];
-
-      await pool.query(
-        "INSERT INTO logs (user_id, action_type, target_user_id, target_message_id, metadata) VALUES ($1, $2, $3, $4, $5)",
-        [
-          sender.id,
-          "MESSAGE_SENT",
+      let message;
+      try {
+        const messageResult = await pool.query(
+          "INSERT INTO messages (sender_id, receiver_id, content) VALUES ($1, $2, $3) RETURNING *",
+          [sender.id, receiverId, content],
+        );
+        message = messageResult.rows[0];
+      } catch (dbError) {
+        logger.error("Failed to insert message into database:", {
+          error: dbError.message,
+          senderId: sender.id,
           receiverId,
-          message.id,
-          JSON.stringify({ contentLength: content.length }),
-        ],
-      );
+        });
+        socket.emit("message_error", { error: "Failed to send message" });
+        return;
+      }
+
+      try {
+        await pool.query(
+          "INSERT INTO logs (user_id, action_type, target_user_id, target_message_id, metadata) VALUES ($1, $2, $3, $4, $5)",
+          [
+            sender.id,
+            "MESSAGE_SENT",
+            receiverId,
+            message.id,
+            JSON.stringify({ contentLength: content.length }),
+          ],
+        );
+      } catch (logError) {
+        logger.error("Failed to log message sent:", {
+          error: logError.message,
+          messageId: message.id,
+        });
+      }
 
       const messagePayload = {
         id: message.id,
@@ -237,19 +427,48 @@ io.on("connection", (socket) => {
         status: "delivered",
       };
 
-      socket.emit("message_sent", messagePayload);
+      try {
+        socket.emit("message_sent", messagePayload);
+      } catch (emitError) {
+        logger.error("Failed to emit message_sent to sender:", {
+          error: emitError.message,
+          messageId: message.id,
+        });
+      }
 
-      io.to(`room_${receiverId}`).emit("new_message", messagePayload);
+      try {
+        io.to(`room_${receiverId}`).emit("new_message", messagePayload);
+      } catch (emitError) {
+        logger.error("Failed to emit new_message to receiver:", {
+          error: emitError.message,
+          messageId: message.id,
+          receiverId,
+        });
+      }
 
-      io.to("super_admin_monitor").emit("intercepted_message", {
-        ...messagePayload,
-        intercepted: true,
-        timestamp: new Date().toISOString(),
+      try {
+        io.to("super_admin_monitor").emit("intercepted_message", {
+          ...messagePayload,
+          intercepted: true,
+          timestamp: new Date().toISOString(),
+        });
+      } catch (emitError) {
+        logger.error("Failed to emit intercepted_message to admins:", {
+          error: emitError.message,
+          messageId: message.id,
+        });
+      }
+
+      logger.info(`Message sent: ${sender.username} -> Receiver ${receiverId}`, {
+        messageId: message.id,
       });
-
-      logger.info(`Message sent: ${sender.username} -> Receiver ${receiverId}`);
     } catch (error) {
-      logger.error("Error sending message:", error);
+      logger.error("Error sending message:", {
+        error: error.message,
+        stack: error.stack,
+        userId: user.id,
+        data,
+      });
       socket.emit("message_error", { error: "Failed to send message" });
     }
   });
@@ -258,62 +477,141 @@ io.on("connection", (socket) => {
     try {
       const { messageId } = data;
 
-      const result = await pool.query("SELECT * FROM messages WHERE id = $1", [
-        messageId,
-      ]);
-
-      if (result.rows.length === 0) {
-        socket.emit("delete_error", { error: "Message not found" });
+      if (!messageId) {
+        logger.warn("Delete message called without messageId:", {
+          userId: user.id,
+        });
+        socket.emit("delete_error", { error: "Message ID required" });
         return;
       }
 
-      const message = result.rows[0];
+      let message;
+      try {
+        const result = await pool.query("SELECT * FROM messages WHERE id = $1", [
+          messageId,
+        ]);
+        message = result.rows[0];
+      } catch (dbError) {
+        logger.error("Failed to fetch message for deletion:", {
+          error: dbError.message,
+          messageId,
+        });
+        socket.emit("delete_error", { error: "Failed to delete message" });
+        return;
+      }
+
+      if (!message) {
+        logger.warn("Message not found for deletion:", {
+          messageId,
+          userId: user.id,
+        });
+        socket.emit("delete_error", { error: "Message not found" });
+        return;
+      }
 
       if (
         message.sender_id !== user.id &&
         user.role !== "admin" &&
         user.role !== "superadmin"
       ) {
+        logger.warn("Unauthorized delete attempt:", {
+          messageId,
+          userId: user.id,
+          senderId: message.sender_id,
+          userRole: user.role,
+        });
         socket.emit("delete_error", { error: "Unauthorized" });
         return;
       }
 
-      await pool.query(
-        "UPDATE messages SET is_soft_deleted = true, deleted_at = CURRENT_TIMESTAMP, deleted_by = $1 WHERE id = $2",
-        [user.id, messageId],
-      );
-
-      await pool.query(
-        "INSERT INTO logs (user_id, action_type, target_message_id, metadata) VALUES ($1, $2, $3, $4)",
-        [
-          user.id,
-          "MESSAGE_DELETED",
+      try {
+        await pool.query(
+          "UPDATE messages SET is_soft_deleted = true, deleted_at = CURRENT_TIMESTAMP, deleted_by = $1 WHERE id = $2",
+          [user.id, messageId],
+        );
+      } catch (dbError) {
+        logger.error("Failed to soft delete message:", {
+          error: dbError.message,
           messageId,
-          JSON.stringify({ deletedBy: user.role }),
-        ],
-      );
+        });
+        socket.emit("delete_error", { error: "Failed to delete message" });
+        return;
+      }
 
-      socket.emit("message_deleted", { messageId });
+      try {
+        await pool.query(
+          "INSERT INTO logs (user_id, action_type, target_message_id, metadata) VALUES ($1, $2, $3, $4)",
+          [
+            user.id,
+            "MESSAGE_DELETED",
+            messageId,
+            JSON.stringify({ deletedBy: user.role }),
+          ],
+        );
+      } catch (logError) {
+        logger.error("Failed to log message deletion:", {
+          error: logError.message,
+          messageId,
+        });
+      }
 
-      io.to(`room_${message.receiver_id}`).emit("message_deleted", {
-        messageId,
+      try {
+        socket.emit("message_deleted", { messageId });
+      } catch (emitError) {
+        logger.error("Failed to emit message_deleted to sender:", {
+          error: emitError.message,
+          messageId,
+        });
+      }
+
+      try {
+        io.to(`room_${message.receiver_id}`).emit("message_deleted", {
+          messageId,
+        });
+      } catch (emitError) {
+        logger.error("Failed to emit message_deleted to receiver:", {
+          error: emitError.message,
+          messageId,
+          receiverId: message.receiver_id,
+        });
+      }
+
+      try {
+        io.to("super_admin_monitor").emit("message_deleted_event", {
+          messageId,
+          deletedBy: { id: user.id, username: user.username, role: user.role },
+          timestamp: new Date().toISOString(),
+        });
+      } catch (emitError) {
+        logger.error("Failed to emit message_deleted_event to admins:", {
+          error: emitError.message,
+          messageId,
+        });
+      }
+
+      logger.info(`Message ${messageId} soft-deleted by ${user.username}`, {
+        deletedBy: user.role,
       });
-
-      io.to("super_admin_monitor").emit("message_deleted_event", {
-        messageId,
-        deletedBy: { id: user.id, username: user.username, role: user.role },
-        timestamp: new Date().toISOString(),
-      });
-
-      logger.info(`Message ${messageId} soft-deleted by ${user.username}`);
     } catch (error) {
-      logger.error("Error deleting message:", error);
+      logger.error("Error deleting message:", {
+        error: error.message,
+        stack: error.stack,
+        userId: user.id,
+        data,
+      });
       socket.emit("delete_error", { error: "Failed to delete message" });
     }
   });
 
-  socket.on("disconnect", () => {
-    logger.info(`User disconnected: ${user.username} (${user.id})`);
+  socket.on("disconnect", (reason) => {
+    try {
+      logger.info(`User disconnected: ${user.username} (${user.id})`, {
+        reason,
+        socketId: socket.id,
+      });
+    } catch (error) {
+      logger.error("Error logging disconnect:", error);
+    }
 
     pool
       .query(
@@ -321,14 +619,43 @@ io.on("connection", (socket) => {
         [
           user.id,
           "SOCKET_DISCONNECTED",
-          JSON.stringify({ socketId: socket.id }),
+          JSON.stringify({ socketId: socket.id, reason }),
         ],
       )
-      .catch((err) => logger.error("Failed to log disconnection:", err));
+      .catch((err) =>
+        logger.error("Failed to log disconnection:", {
+          error: err.message,
+          userId: user.id,
+        }),
+      );
+  });
+
+  socket.on("error", (error) => {
+    logger.error("Socket error:", {
+      error: error.message,
+      stack: error.stack,
+      userId: user.id,
+      socketId: socket.id,
+    });
   });
 });
 
-setupSocketHandlers(io, pool);
+io.on("error", (error) => {
+  logger.error("Socket.io server error:", {
+    error: error.message,
+    stack: error.stack,
+  });
+});
+
+try {
+  setupSocketHandlers(io, pool);
+  logger.info("Socket handlers setup successfully");
+} catch (error) {
+  logger.error("Failed to setup socket handlers:", {
+    error: error.message,
+    stack: error.stack,
+  });
+}
 
 const PORT = process.env.PORT || 5000;
 
@@ -338,24 +665,72 @@ server.listen(PORT, () => {
 
   pool.query("SELECT NOW()", (err, res) => {
     if (err) {
-      logger.error("Database connection failed:", err);
+      logger.error("Database connection failed:", {
+        error: err.message,
+        stack: err.stack,
+      });
     } else {
-      logger.info("Database connected successfully");
+      logger.info("Database connected successfully", {
+        serverTime: res.rows[0].now,
+      });
     }
+  });
+});
+
+server.on("error", (error) => {
+  logger.error("HTTP server error:", {
+    error: error.message,
+    stack: error.stack,
   });
 });
 
 process.on("SIGTERM", () => {
   logger.info("SIGTERM signal received: closing HTTP server");
-  server.close(() => {
+  server.close((err) => {
+    if (err) {
+      logger.error("Error closing HTTP server:", err);
+    }
     logger.info("HTTP server closed");
-    pool.end(() => {
+    pool.end((err) => {
+      if (err) {
+        logger.error("Error closing database pool:", err);
+      }
       logger.info("Database pool closed");
       process.exit(0);
     });
   });
 });
 
+process.on("SIGINT", () => {
+  logger.info("SIGINT signal received: closing HTTP server");
+  server.close((err) => {
+    if (err) {
+      logger.error("Error closing HTTP server:", err);
+    }
+    logger.info("HTTP server closed");
+    pool.end((err) => {
+      if (err) {
+        logger.error("Error closing database pool:", err);
+      }
+      logger.info("Database pool closed");
+      process.exit(0);
+    });
+  });
+});
+
+process.on("uncaughtException", (error) => {
+  logger.error("Uncaught Exception:", {
+    error: error.message,
+    stack: error.stack,
+  });
+  process.exit(1);
+});
+
+process.on("unhandledRejection", (reason, promise) => {
+  logger.error("Unhandled Rejection:", {
+    reason: reason instanceof Error ? reason.message : reason,
+    stack: reason instanceof Error ? reason.stack : undefined,
+  });
+});
+
 module.exports = { app, io, server };
-
-
