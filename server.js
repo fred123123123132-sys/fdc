@@ -23,6 +23,11 @@ const setupSocketHandlers = require("./socket/socketHandler");
 const app = express();
 const server = http.createServer(app);
 
+if (!process.env.DATABASE_URL) {
+  console.error("❌ DATABASE_URL is not set");
+  process.exit(1);
+}
+
 const io = new Server(server, {
   cors: {
     origin: process.env.CLIENT_URL || "http://localhost:3000",
@@ -351,3 +356,4 @@ process.on("SIGTERM", () => {
 });
 
 module.exports = { app, io, server };
+
