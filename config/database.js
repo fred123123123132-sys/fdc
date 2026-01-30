@@ -3,14 +3,8 @@ const { Pool } = require("pg");
 const logger = require("../utils/logger");
 
 const pool = new Pool({
-  host: "aws-0-ap-southeast-1.pooler.supabase.com",
-  port: 6543,
-  user: "postgres.ffootkswnfxftdokfnhl",
-  password: "/6C-UDMyAz4-z-E",
-  database: "postgres",
-  ssl: {
-    rejectUnauthorized: false,
-  },
+  connectionString: process.env.DATABASE_URL,
+  ssl: { rejectUnauthorized: false },
 });
 
 // Test connection
@@ -24,6 +18,7 @@ pool.on("error", (err) => {
 });
 
 module.exports = pool;
+
 
 
 
