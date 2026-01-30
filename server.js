@@ -1,4 +1,10 @@
 require("dotenv").config();
+
+if (!process.env.DATABASE_URL) {
+  console.error("❌ DATABASE_URL is not set");
+  process.exit(1);
+}
+
 const express = require("express");
 const http = require("http");
 const { Server } = require("socket.io");
@@ -22,11 +28,6 @@ const setupSocketHandlers = require("./socket/socketHandler");
 
 const app = express();
 const server = http.createServer(app);
-
-if (!process.env.DATABASE_URL) {
-  console.error("❌ DATABASE_URL is not set");
-  process.exit(1);
-}
 
 const io = new Server(server, {
   cors: {
@@ -356,4 +357,5 @@ process.on("SIGTERM", () => {
 });
 
 module.exports = { app, io, server };
+
 
