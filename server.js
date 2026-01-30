@@ -1,3 +1,15 @@
+// Add this at the VERY TOP of server.js (before anything else)
+console.log("🚀 Server starting...");
+console.log("Node version:", process.version);
+console.log("Current directory:", process.cwd());
+
+// Check environment variables
+console.log("Checking environment variables...");
+console.log("DATABASE_URL:", process.env.DATABASE_URL ? "✅ SET" : "❌ NOT SET");
+console.log("CLIENT_URL:", process.env.CLIENT_URL || "not set (using default)");
+console.log("PORT:", process.env.PORT || "not set (using 5000)");
+console.log("NODE_ENV:", process.env.NODE_ENV || "not set");
+
 require("dotenv").config();
 
 if (!process.env.DATABASE_URL) {
@@ -734,3 +746,4 @@ process.on("unhandledRejection", (reason, promise) => {
 });
 
 module.exports = { app, io, server };
+
