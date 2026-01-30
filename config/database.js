@@ -6,7 +6,7 @@ const pool = new Pool({
   host: "aws-0-ap-southeast-1.pooler.supabase.com",
   port: 6543,
   user: "postgres.ffootkswnfxftdokfnhl",
-  password: process.env.DB_PASSWORD,
+  password: "/6C-UDMyAz4-z-E",
   database: "postgres",
   ssl: {
     rejectUnauthorized: false,
@@ -24,5 +24,6 @@ pool.on("error", (err) => {
 });
 
 module.exports = pool;
+
 
 
