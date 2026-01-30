@@ -2,20 +2,20 @@
 const { Pool } = require("pg");
 const logger = require("../utils/logger");
 
+import pg from "pg";
+const { Pool } = pg;
+
 const pool = new Pool({
-  host: process.env.DB_HOST || "db.ffootkswnfxftdokfnhl.supabase.co",
-  port: process.env.DB_PORT || 5432,
-  database: process.env.DB_NAME || "postgres",
-  user: process.env.DB_USER || "postgres",
+  host: "aws-0-ap-southeast-1.pooler.supabase.com",
+  port: 6543, // ✅ Supabase pooler port
+  user: "postgres.ffootkswnfxftdokfnhl", // format: postgres.PROJECT_REF
   password: process.env.DB_PASSWORD,
-  max: 20, // Maximum number of clients in the pool
-  idleTimeoutMillis: 30000,
-  connectionTimeoutMillis: 2000,
-  ssl:
-    process.env.NODE_ENV === "production"
-      ? { rejectUnauthorized: false }
-      : false,
+  database: "postgres",
+  ssl: {
+    rejectUnauthorized: false,
+  },
 });
+
 
 // Test connection on startup
 pool.on("connect", () => {
@@ -28,4 +28,5 @@ pool.on("error", (err) => {
 });
 
 module.exports = pool;
+
 
